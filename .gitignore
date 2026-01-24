@@ -1,0 +1,80 @@
+############################
+# DaCe
+############################
+*.sdfg
+*.sdfgz
+**/.dacecache/
+**/_dacegraphs/
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+ENV/
+.env
+
+############################
+# C / C++ / CMake
+############################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.la
+*.lo
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+############################
+# Build directories
+############################
+build/
+_build/
+bin/
+lib/
+lib64/
+
+############################
+# Editors & IDEs
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+############################
+# Logs & runtime output
+############################
+*.log
+logs/
+*.tmp
+*.bak
+
+############################
+# Slurm / HPC
+############################
+slurm-*.out
+slurm-*.err
+*.prof
+*.nvvp
+*.nsys-rep
+*.qdrep
+*.sqlite
