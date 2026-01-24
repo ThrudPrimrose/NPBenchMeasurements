@@ -1,0 +1,12 @@
+cd npbench_runtime_amd_epyc_7742/L
+sbatch run_kernel.sh
+cd ../..
+cd npbench_runtime_amd_epyc_7742/paper
+sbatch run_kernel.sh
+cd ../..
+cd npbench_runtime_intel_xeon_6154/L
+sbatch run_kernel.sh
+cd ../..
+cd npbench_runtime_intel_xeon_6154/paper
+sbatch run_kernel.sh
+cd ../..
