@@ -42,10 +42,9 @@ echo "====================================="
 # Run benchmark
 # -------------------------------
 
-#cp -R ../../../npbench npbench && chmod 777 npbench
 cd npbench
-python run_framework.py --f dace_cpu -p L
-python run_framework.py --f jax -p L
-python run_framework.py --f numba -p L
-python run_framework.py --f numpy -p L
-python run_framework.py --f pythran -p L
+python3.12 run_framework.py --f dace_cpu -p L -e True
+python3.12 run_framework.py --f jax -p L -e True
+python3.12 run_framework.py --f numba -p L -e True
+python3.12 run_framework.py --f numpy -p L -e True
+python3.12 run_framework.py --f pythran -p L -e True
