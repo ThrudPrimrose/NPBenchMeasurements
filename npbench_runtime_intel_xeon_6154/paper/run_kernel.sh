@@ -43,7 +43,7 @@ echo "====================================="
 # Run benchmark
 # -------------------------------
 cd npbench
-python3.12 run_framework.py --f dace_cpu -p paper -e True
+#python3.12 run_framework.py --f dace_cpu -p paper -e True
 python3.12 run_framework.py --f jax -p paper -e True
 python3.12 run_framework.py --f numba -p paper -e True
 python3.12 run_framework.py --f numpy -p paper -e True
