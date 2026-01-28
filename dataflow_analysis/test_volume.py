@@ -19,7 +19,7 @@ import dace.transformation.auto.auto_optimize as opt
 import dace
 from dace.config import Config
 from dace.codegen.instrumentation import papi
-
+from dace.sdfg import infer_types
 # branch alexanderfluck/combined
 
 from npbench.infrastructure import (Benchmark, utilities as util, DaceFramework)
@@ -153,20 +153,26 @@ if __name__ == "__main__":
         substitute = True
         
         for benchmark_name in benchmarks:
+            if benchmark_name != "k2mm":
+                continue
             print("="*50, benchmark_name, "(", preset, ")", "="*50)
             benchmark = Benchmark(benchmark_name)
             sdfg, simplified_sdfg = get_bench_sdfg(benchmark, dace_cpu_framework)
-            
+            base_sdfg = copy.deepcopy(sdfg)
+            infer_types.set_default_schedule_and_storage_types(base_sdfg)
+            sdfg.save("base_sdfg.sdfg")
+
             opt.auto_optimize(sdfg, dace.dtypes.DeviceType.CPU)
             substitutions = benchmark.info["parameters"][preset]
             sdfg.save("curr_sdfg.sdfg")
+            infer_types.set_default_schedule_and_storage_types(sdfg)
             
             try:
                 vol_r, vol_w = tv.analyze_sdfg(sdfg)
                 d = dict()
-                wd.analyze_sdfg(sdfg, w_d_map=d, analyze_tasklet=get_tasklet_work, assumptions=list(), detailed_analysis=True)
-                work = d[get_uuid(sdfg)]
-                print("Volume read symbolic:", vol_r ,"bytes", "\nVolume write symbolic:", vol_w, "bytes")
+                wd.analyze_sdfg(base_sdfg, w_d_map=d, analyze_tasklet=get_tasklet_work, assumptions=list(), detailed_analysis=True)
+                work = d[get_uuid(base_sdfg)]
+                print("Volume read symbolic:", vol_r ,"bytes", "\nVolume write symbolic:", vol_w, "bytes", "\nWork symbolic:", work)
                 if substitute:
                     vol_r = vol_r.subs(substitutions)
                     vol_w = vol_w.subs(substitutions)
