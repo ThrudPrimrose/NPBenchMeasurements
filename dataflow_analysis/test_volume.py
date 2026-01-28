@@ -153,8 +153,6 @@ if __name__ == "__main__":
         substitute = True
         
         for benchmark_name in benchmarks:
-            if benchmark_name != "k2mm":
-                continue
             print("="*50, benchmark_name, "(", preset, ")", "="*50)
             benchmark = Benchmark(benchmark_name)
             sdfg, simplified_sdfg = get_bench_sdfg(benchmark, dace_cpu_framework)
