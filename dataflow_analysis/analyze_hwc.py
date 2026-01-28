@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
+from matplotlib.ticker import LogLocator, NullFormatter
 
 CACHE_LINE = 64  # bytes
 WRITE_ALLOCATE = 1
@@ -432,22 +432,32 @@ def plot_flops(df: pd.DataFrame):
     
     # Set y-axis
     ax.set_yticks(y_positions)
-    ax.set_yticklabels(benchmarks, fontsize=16)
-    ax.set_ylabel('Benchmark Name', fontsize=20)
+    ax.set_yticklabels(benchmarks, fontsize=18)
+    ax.set_ylabel('Benchmark', fontsize=20)
     
-    # Set x-axis
+    # X axis settings
     ax.set_xlabel('FLOPs', fontsize=20)
     ax.set_xscale('log')
-    # Major grid lines (at 10^n)
-    ax.grid(True, which='major', axis='x', linestyle='-', linewidth=1, alpha=0.3, color='gray')
-    # Minor grid lines (at 2*10^n, 3*10^n, etc.)
-    ax.grid(True, which='minor', axis='x', linestyle=':', linewidth=0.5, alpha=0.15, color='gray')
+    ax.tick_params(axis='x', labelsize=18)
+
+    # Major ticks at 10^n
+    ax.xaxis.set_major_locator(LogLocator(base=10.0, numticks=20))
+
+    # Minor ticks at 2..9 * 10^n
+    ax.xaxis.set_minor_locator(LogLocator(base=10.0, subs=(2,3,4,5,6,7,8,9), numticks=100))
+
+    # Optional: hide minor tick labels (usually desired)
+    ax.xaxis.set_minor_formatter(NullFormatter())
+
+    # Grid lines
+    ax.grid(True, which='major', axis='x',
+            linestyle='-', linewidth=1, alpha=0.3, color='gray')
+    ax.grid(True, which='minor', axis='x',
+            linestyle=':', linewidth=0.5, alpha=0.15, color='gray')
+
+    # Limits
     ax.set_xlim(left=max(1, min(papi_flops.min(), symbolic_flops.min()) * 0.5))
-    ax.tick_params(axis='x', labelsize=16)
-    
-    # Add grid
-    ax.grid(True, alpha=0.3, axis='x', linewidth=1)
-    
+
     # Add legend outside plot area
     ax.legend(fontsize=16, loc='upper center', bbox_to_anchor=(0.5, -0.05), 
              ncol=2, framealpha=0.95, edgecolor='black', fancybox=True, shadow=True)
