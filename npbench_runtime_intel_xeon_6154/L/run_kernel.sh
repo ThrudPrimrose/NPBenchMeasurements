@@ -18,7 +18,7 @@ mkdir -p logs results
 spack load gcc@14.2
 spack load python@3.12.9%gcc@14.2
 spack load sqlite
-
+spack load openblas@0.3.29%gcc@14.2
 echo "Compiler:"
 gcc --version
 
@@ -42,8 +42,11 @@ echo "====================================="
 # Run benchmark
 # -------------------------------
 cd npbench
-python3.12 run_framework.py --f dace_cpu -p L -e True
-python3.12 run_framework.py --f jax -p L -e True
-python3.12 run_framework.py --f numba -p L -e True
-python3.12 run_framework.py --f numpy -p L -e True
-python3.12 run_framework.py --f pythran -p L -e True
+echo NUMPY
+python3.12 run_framework.py --f numpy -p L -e True -t 1800
+echo DACE_CPU
+python3.12 run_framework.py --f dace_cpu -p L -e True -t 1800
+echo JAX
+python3.12 run_framework.py --f jax -p L -e True -t 1800
+echo NUMBA
+python3.12 run_framework.py --f numba -p L -e True -t 1800

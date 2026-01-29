@@ -18,6 +18,7 @@ mkdir -p logs results
 spack load gcc@14.2.0
 spack load openssl
 spack load python@3.12.9%gcc@14.2
+spack load openblas@0.3.29%gcc@14.2
 alias python=python3.12
 echo "Compiler:"
 gcc --version
@@ -30,7 +31,12 @@ export OMP_PLACES=cores
 export OMP_PROC_BIND=close
 export OMP_DYNAMIC=false
 
-
+export OPENBLAS_DIR=$( spack location -i openblas@0.3.29%gcc@14.2)
+export C_INCLUDE_PATH=${OPENBLAS_DIR}/include:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=${OPENBLAS_DIR}/include:$CPLUS_INCLUDE_PATH
+export CPATH=${OPENBLAS_DIR}/include:$CPATH
+export LD_LIBRARY_PATH=${OPENBLAS_DIR}/lib:$LD_LIBRARY_PATH
+export LIBRARY_PATH=${OPENBLAS_DIR}/lib:$LIBRARY_PATH
 
 echo "====================================="
 echo "Job ID:      ${SLURM_JOB_ID}"
@@ -43,8 +49,11 @@ echo "====================================="
 # -------------------------------
 
 cd npbench
-python3.12 run_framework.py --f dace_cpu -p L -e True
-python3.12 run_framework.py --f jax -p L -e True
-python3.12 run_framework.py --f numba -p L -e True
-python3.12 run_framework.py --f numpy -p L -e True
-python3.12 run_framework.py --f pythran -p L -e True
+echo NUMPY
+python3.12 run_framework.py --f numpy -p L -e True -t 1800
+echo DACE_CPU
+python3.12 run_framework.py --f dace_cpu -p L -e True -t 1800
+echo JAX
+python3.12 run_framework.py --f jax -p L -e True -t 1800
+echo NUMBA
+python3.12 run_framework.py --f numba -p L -e True -t 1800
