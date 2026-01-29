@@ -6,6 +6,8 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
+from matplotlib.ticker import LogLocator, NullFormatter
 
 CACHE_LINE = 64  # bytes
 WRITE_ALLOCATE = 1
@@ -330,7 +332,7 @@ def main():
     conn.close()
 
     plot_memory(df)
-    plot_flops(df)
+    plot_flops(results)
 
 def plot_memory(df: pd.DataFrame):
 
@@ -396,61 +398,80 @@ def plot_memory(df: pd.DataFrame):
 
     plt.savefig("traffic_comparison.pdf")
 
-
-
-
 def plot_flops(df: pd.DataFrame):
-    # Read CSV or use existing df
-    df = pd.read_csv("results.csv")
+    """
+    Plot PAPI FLOPs vs Symbolic FLOPs with benchmarks on y-axis
+    """
+    # Filter out benchmarks where both values are 0
+    print(df)
+    df_filtered = df[(df['PAPI FLOPs'] > 0) | (df['work'] > 0)].copy()
+    
+    # Sort benchmarks alphabetically
+    df_filtered = df_filtered.sort_values('benchmark', ascending=False)
+    
+    # Create figure with extra space for legend
+    fig, ax = plt.subplots(figsize=(12, max(10, len(df_filtered) * 0.5)))
+    
+    benchmarks = df_filtered['benchmark'].values
+    papi_flops = df_filtered['PAPI FLOPs'].values
+    symbolic_flops = df_filtered['work'].values
+    
+    y_positions = np.arange(len(benchmarks))
+    
+    # Add diagonal lines connecting the two points for each benchmark (plot first so they're in background)
+    for i, (papi, symbolic) in enumerate(zip(papi_flops, symbolic_flops)):
+        ax.plot([papi, symbolic], [i, i], 'k-', alpha=0.2, linewidth=1.5)
+    
+    # Plot symbolic FLOPs first (so PAPI appears on top)
+    ax.scatter(symbolic_flops, y_positions, label='Symbolic FLOPs (work)', 
+              s=150, alpha=0.7, marker='s', color='#ff7f0e', edgecolors='black', linewidth=1)
+    
+    # Plot PAPI FLOPs on top with smaller marker
+    ax.scatter(papi_flops, y_positions, label='PAPI FLOPs', 
+              s=120, alpha=0.8, marker='o', color='#1f77b4', edgecolors='black', linewidth=1)
+    
+    # Set y-axis
+    ax.set_yticks(y_positions)
+    ax.set_yticklabels(benchmarks, fontsize=18)
+    ax.set_ylabel('Benchmark', fontsize=20)
+    
+    # X axis settings
+    ax.set_xlabel('FLOPs', fontsize=20)
+    ax.set_xscale('log')
+    ax.tick_params(axis='x', labelsize=18)
 
-    # Columns to compare
-    traffic_columns = ['PAPI FLOPs', 'work']
+    # Major ticks at 10^n
+    ax.xaxis.set_major_locator(LogLocator(base=10.0, numticks=20))
 
-    # Melt the dataframe for plotting
-    df_melt = df.melt(
-        id_vars=["benchmark"], 
-        value_vars=traffic_columns,
-        var_name="Variant",
-        value_name="Value"   # must not match existing column names
-    )
+    # Minor ticks at 2..9 * 10^n
+    ax.xaxis.set_minor_locator(LogLocator(base=10.0, subs=(2,3,4,5,6,7,8,9), numticks=100))
 
-    # Plot setup
-    sns.set(style="whitegrid")
-    benchmarks = df["benchmark"].unique()
-    n_cols = 3
-    n_rows = (len(benchmarks) + n_cols - 1) // n_cols
+    # Optional: hide minor tick labels (usually desired)
+    ax.xaxis.set_minor_formatter(NullFormatter())
 
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(5*n_cols, 4*n_rows), squeeze=False)
+    # Grid lines
+    ax.grid(True, which='major', axis='x',
+            linestyle='-', linewidth=1, alpha=0.3, color='gray')
+    ax.grid(True, which='minor', axis='x',
+            linestyle=':', linewidth=0.5, alpha=0.15, color='gray')
 
-    for i, benchmark in enumerate(benchmarks):
-        ax = axes[i // n_cols, i % n_cols]
-        data = df_melt[df_melt["benchmark"] == benchmark]
+    # Limits
+    ax.set_xlim(left=max(1, min(papi_flops.min(), symbolic_flops.min()) * 0.5))
 
-        # Scatter plot: x = variant, y = value
-        sns.scatterplot(
-            data=data,
-            x="Variant",
-            y="Value",
-            hue="Variant",
-            style="Variant",
-            s=100,
-            ax=ax,
-            legend=False  # avoid repeating legend
-        )
-
-        ax.set_title(f"Benchmark: {benchmark}")
-        ax.set_xlabel("Variant / Formula")
-        ax.set_ylabel("FLOPs / Work")
-        ax.tick_params(axis='x', rotation=90)
-
-    # Hide empty subplots
-    for j in range(i+1, n_rows*n_cols):
-        fig.delaxes(axes[j // n_cols, j % n_cols])
-
+    # Add legend outside plot area
+    ax.legend(fontsize=16, loc='upper center', bbox_to_anchor=(0.5, -0.05), 
+             ncol=2, framealpha=0.95, edgecolor='black', fancybox=True, shadow=True)
+    
+    # Add title
+    ax.set_title('FLOPs Obtained Through Hardware Counters vs\n' \
+                 'Symbolic Analysis', 
+                fontsize=22, pad=20)
+    
     plt.tight_layout()
-    plt.ylim(bottom=0)
-
-    plt.savefig("flops_comparison.pdf")
+    plt.savefig("flops_comparison.pdf", bbox_inches='tight', dpi=900)
+    plt.savefig("flops_comparison.png", bbox_inches='tight', dpi=900)
+    plt.close()
+    print("✓ Saved: flops_comparison.pdf and flops_comparison.png")
 
 if __name__ == "__main__":
     main()

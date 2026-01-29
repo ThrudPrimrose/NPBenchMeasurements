@@ -14,7 +14,7 @@ from statistics import median
 from dace.sdfg.performance_evaluation.helpers import get_uuid
 from dace.sdfg.performance_evaluation.work_depth import get_tasklet_work
 import dace.transformation.auto.auto_optimize as opt
-
+from dace.transformation.dataflow.wcr_conversion import AugAssignToWCR, WCRToAugAssign
 
 import dace
 from dace.config import Config
@@ -156,20 +156,21 @@ if __name__ == "__main__":
             print("="*50, benchmark_name, "(", preset, ")", "="*50)
             benchmark = Benchmark(benchmark_name)
             sdfg, simplified_sdfg = get_bench_sdfg(benchmark, dace_cpu_framework)
-            base_sdfg = copy.deepcopy(sdfg)
-            infer_types.set_default_schedule_and_storage_types(base_sdfg)
-            sdfg.save("base_sdfg.sdfg")
+            #base_sdfg = copy.deepcopy(sdfg)
+            #infer_types.set_default_schedule_and_storage_types(base_sdfg)
 
-            opt.auto_optimize(sdfg, dace.dtypes.DeviceType.CPU)
+            opt.auto_optimize(sdfg, dace.dtypes.DeviceType.CPU, expand_library_nodes=False)
             substitutions = benchmark.info["parameters"][preset]
             sdfg.save("curr_sdfg.sdfg")
             infer_types.set_default_schedule_and_storage_types(sdfg)
-            
+            if benchmark_name != "azimint_hist" and benchmark_name != "azimint_naive":
+                sdfg.apply_transformations_once_everywhere(WCRToAugAssign)
+
             try:
                 vol_r, vol_w = tv.analyze_sdfg(sdfg)
                 d = dict()
-                wd.analyze_sdfg(base_sdfg, w_d_map=d, analyze_tasklet=get_tasklet_work, assumptions=list(), detailed_analysis=True)
-                work = d[get_uuid(base_sdfg)]
+                wd.analyze_sdfg(sdfg, w_d_map=d, analyze_tasklet=get_tasklet_work, assumptions=list(), detailed_analysis=True)
+                work = d[get_uuid(sdfg)]
                 print("Volume read symbolic:", vol_r ,"bytes", "\nVolume write symbolic:", vol_w, "bytes", "\nWork symbolic:", work)
                 if substitute:
                     vol_r = vol_r.subs(substitutions)
