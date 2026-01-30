@@ -18,7 +18,7 @@ mkdir -p logs results
 spack load gcc@14.2
 spack load python@3.12.9%gcc@14.2
 spack load sqlite
-
+spack load openblas@0.3.29%gcc@14.2
 echo "Compiler:"
 gcc --version
 
@@ -39,12 +39,27 @@ echo "OMP threads: ${OMP_NUM_THREADS}"
 echo "Node(s):     ${SLURM_NODELIST}"
 echo "====================================="
 
+export OPENBLAS_DIR=$(spack location -i openblas@0.3.29%gcc@14.2)
+export C_INCLUDE_PATH=${OPENBLAS_DIR}/include:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=${OPENBLAS_DIR}/include:$CPLUS_INCLUDE_PATH
+export CPATH=${OPENBLAS_DIR}/include:$CPATH
+export LD_LIBRARY_PATH=${OPENBLAS_DIR}/lib:$LD_LIBRARY_PATH
+export LIBRARY_PATH=${OPENBLAS_DIR}/lib:$LIBRARY_PATH
+export LDFLAGS="-L${OPENBLAS_DIR}/lib $LDFLAGS"
+export CXXFLAGS="-I${OPENBLAS_DIR}/include $CXXFLAGS"
+export CPPFLAGS="-I${OPENBLAS_DIR}/include $CPPFLAGS"
+export CFLAGS="-I${OPENBLAS_DIR}/include $CFLAGS"
+
+
 # -------------------------------
 # Run benchmark
 # -------------------------------
 cd npbench
-#python3.12 run_framework.py --f dace_cpu -p paper -e True
-python3.12 run_framework.py --f jax -p paper -e True
-python3.12 run_framework.py --f numba -p paper -e True
-python3.12 run_framework.py --f numpy -p paper -e True
-python3.12 run_framework.py --f pythran -p paper -e True
+echo DACE_CPU
+python3.12 run_framework.py --f dace_cpu -p paper -e True -t 1800
+echo NUMPY
+python3.12 run_framework.py --f numpy -p paper -e True -t 1800
+echo JAX
+python3.12 run_framework.py --f jax -p paper -e True -t 1800
+echo NUMBA
+python3.12 run_framework.py --f numba -p paper -e True -t 1800
