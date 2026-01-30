@@ -54,10 +54,10 @@ echo "====================================="
 # -------------------------------
 cd npbench
 echo DACE_CPU
-python3.12 run_framework.py --f dace_cpu -p L -e True -t 1800
+python3.12 run_framework.py --f dace_cpu -p paper -e True -t 1800
 echo NUMPY
-python3.12 run_framework.py --f numpy -p L -e True -t 1800
+python3.12 run_framework.py --f numpy -p paper -e True -t 1800
 echo JAX
-python3.12 run_framework.py --f jax -p L -e True -t 1800
+python3.12 run_framework.py --f jax -p paper -e True -t 1800
 echo NUMBA
-python3.12 run_framework.py --f numba -p L -e True -t 1800
+python3.12 run_framework.py --f numba -p paper -e True -t 1800
