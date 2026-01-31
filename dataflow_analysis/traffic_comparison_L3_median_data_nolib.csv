@@ -1,0 +1,118 @@
+benchmark,metric,value
+adi,L3 Misses,27432239200.0
+adi,L3 DRead + DWrite,48043674752.0
+adi,L3 DMisses,27432239200.0
+adi,L3 Access,94003234432.0
+adi,LST,28851816400.0
+arc_distance,L3 Misses,2758089312.0
+arc_distance,L3 DRead + DWrite,287255936.0
+arc_distance,L3 DMisses,2758089312.0
+arc_distance,L3 Access,3324641472.0
+arc_distance,LST,7315057786.0
+cavity_flow,L3 Misses,1915180576.0
+cavity_flow,L3 DRead + DWrite,3142082336.0
+cavity_flow,L3 DMisses,1915180576.0
+cavity_flow,L3 Access,8301889312.0
+cavity_flow,LST,11309691976.0
+compute,L3 Misses,22643406432.0
+compute,L3 DRead + DWrite,2404568320.0
+compute,L3 DMisses,22643406432.0
+compute,L3 Access,26468156096.0
+compute,LST,15442793168.0
+conv2d_bias,L3 Misses,978455584.0
+conv2d_bias,L3 DRead + DWrite,13607899072.0
+conv2d_bias,L3 DMisses,978455584.0
+conv2d_bias,L3 Access,28994605952.0
+conv2d_bias,LST,21580056116.0
+crc16,L3 Misses,12352.0
+crc16,L3 DRead + DWrite,29568.0
+crc16,L3 DMisses,12352.0
+crc16,L3 Access,211584.0
+crc16,LST,10158578.0
+deriche,L3 Misses,8315535840.0
+deriche,L3 DRead + DWrite,13302181376.0
+deriche,L3 DMisses,8315535840.0
+deriche,L3 Access,26087448160.0
+deriche,LST,12193749008.0
+fdtd_2d,L3 Misses,248093792.0
+fdtd_2d,L3 DRead + DWrite,422263840.0
+fdtd_2d,L3 DMisses,248093792.0
+fdtd_2d,L3 Access,9706850720.0
+fdtd_2d,LST,13013410506.0
+floyd_warshall,L3 Misses,3707288128.0
+floyd_warshall,L3 DRead + DWrite,3752983456.0
+floyd_warshall,L3 DMisses,3707288128.0
+floyd_warshall,L3 Access,7997217536.0
+floyd_warshall,LST,17036282866.0
+go_fast,L3 Misses,5827984960.0
+go_fast,L3 DRead + DWrite,722198400.0
+go_fast,L3 DMisses,5827984960.0
+go_fast,L3 Access,6380226400.0
+go_fast,LST,3230447984.0
+hdiff,L3 Misses,8428582976.0
+hdiff,L3 DRead + DWrite,1056449280.0
+hdiff,L3 DMisses,8428582976.0
+hdiff,L3 Access,9853049472.0
+hdiff,LST,5375472610.0
+heat_3d,L3 Misses,3105184416.0
+heat_3d,L3 DRead + DWrite,1023312320.0
+heat_3d,L3 DMisses,3105184416.0
+heat_3d,L3 Access,10323964576.0
+heat_3d,LST,10419376488.0
+jacobi_1d,L3 Misses,8399847232.0
+jacobi_1d,L3 DRead + DWrite,10134453952.0
+jacobi_1d,L3 DMisses,8399847232.0
+jacobi_1d,L3 Access,22972724736.0
+jacobi_1d,LST,24437119396.0
+jacobi_2d,L3 Misses,2524129440.0
+jacobi_2d,L3 DRead + DWrite,2710700448.0
+jacobi_2d,L3 DMisses,2524129440.0
+jacobi_2d,L3 Access,9826289536.0
+jacobi_2d,LST,12188799400.0
+nussinov,L3 Misses,170336.0
+nussinov,L3 DRead + DWrite,170080.0
+nussinov,L3 DMisses,170336.0
+nussinov,L3 Access,441664.0
+nussinov,LST,30638548.0
+resnet,L3 Misses,902252384.0
+resnet,L3 DRead + DWrite,1321087072.0
+resnet,L3 DMisses,902252384.0
+resnet,L3 Access,3334343648.0
+resnet,LST,19262614808.0
+seidel_2d,L3 Misses,1906207200.0
+seidel_2d,L3 DRead + DWrite,2907676832.0
+seidel_2d,L3 DMisses,1906207200.0
+seidel_2d,L3 Access,6709287328.0
+seidel_2d,LST,1831897430.0
+syr2k,L3 Misses,32195362912.0
+syr2k,L3 DRead + DWrite,43764093376.0
+syr2k,L3 DMisses,32195362912.0
+syr2k,L3 Access,113955720192.0
+syr2k,LST,29566701486.0
+syrk,L3 Misses,20996878048.0
+syrk,L3 DRead + DWrite,34448976704.0
+syrk,L3 DMisses,20996878048.0
+syrk,L3 Access,76416652864.0
+syrk,LST,21997756536.0
+vadv,L3 Misses,2726306048.0
+vadv,L3 DRead + DWrite,6054645440.0
+vadv,L3 DMisses,2726306048.0
+vadv,L3 Access,7230232000.0
+vadv,LST,3887518810.0
+adi,Symbolic Bytes,5161272336.0
+arc_distance,Symbolic Bytes,399999960.0
+cavity_flow,Symbolic Bytes,6875772800.0
+compute,Symbolic Bytes,12287232024.0
+conv2d_bias,Symbolic Bytes,1036832188.0
+deriche,Symbolic Bytes,7196353272.0
+fdtd_2d,Symbolic Bytes,8611588800.0
+go_fast,Symbolic Bytes,9600480024.0
+hdiff,Symbolic Bytes,1876627392.0
+heat_3d,Symbolic Bytes,1949584032.0
+jacobi_1d,Symbolic Bytes,9246368064.0
+jacobi_2d,Symbolic Bytes,3102521440.0
+resnet,Symbolic Bytes,4227198120.0
+seidel_2d,Symbolic Bytes,159011424.0
+syr2k,Symbolic Bytes,1578324800.0
+syrk,Symbolic Bytes,2901127200.0
+vadv,Symbolic Bytes,1478064816.0

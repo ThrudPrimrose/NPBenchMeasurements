@@ -1,0 +1,1171 @@
+benchmark,metric,value,repetition
+adi,L3 Misses,26965232128.0,1
+adi,L3 DRead + DWrite,47952361216.0,1
+adi,L3 DMisses,26965232128.0,1
+adi,L3 Access,93166339264.0,1
+adi,LST,28858969532.0,1
+adi,L3 Misses,27465425664.0,2
+adi,L3 DRead + DWrite,48318315968.0,2
+adi,L3 DMisses,27465425664.0,2
+adi,L3 Access,93238812288.0,2
+adi,LST,28838296708.0,2
+adi,L3 Misses,27419766400.0,3
+adi,L3 DRead + DWrite,47878525696.0,3
+adi,L3 DMisses,27419766400.0,3
+adi,L3 Access,93661139136.0,3
+adi,LST,28845695920.0,3
+adi,L3 Misses,27739791872.0,4
+adi,L3 DRead + DWrite,48064031872.0,4
+adi,L3 DMisses,27739791872.0,4
+adi,L3 Access,94140354368.0,4
+adi,LST,28818278032.0,4
+adi,L3 Misses,27444712000.0,5
+adi,L3 DRead + DWrite,47736247872.0,5
+adi,L3 DMisses,27444712000.0,5
+adi,L3 Access,92833009856.0,5
+adi,LST,28869567968.0,5
+adi,L3 Misses,27521327424.0,6
+adi,L3 DRead + DWrite,48269309120.0,6
+adi,L3 DMisses,27521327424.0,6
+adi,L3 Access,94112928000.0,6
+adi,LST,28854347716.0,6
+adi,L3 Misses,27255261184.0,7
+adi,L3 DRead + DWrite,47894690240.0,7
+adi,L3 DMisses,27255261184.0,7
+adi,L3 Access,94331387840.0,7
+adi,LST,28847582532.0,7
+adi,L3 Misses,27392849920.0,8
+adi,L3 DRead + DWrite,48286250688.0,8
+adi,L3 DMisses,27392849920.0,8
+adi,L3 Access,93893540864.0,8
+adi,LST,28849285084.0,8
+adi,L3 Misses,27496818496.0,9
+adi,L3 DRead + DWrite,48023317632.0,9
+adi,L3 DMisses,27496818496.0,9
+adi,L3 Access,94414143808.0,9
+adi,LST,28898861492.0,9
+adi,L3 Misses,27295080960.0,10
+adi,L3 DRead + DWrite,48351319040.0,10
+adi,L3 DMisses,27295080960.0,10
+adi,L3 Access,94147012864.0,10
+adi,LST,28855822564.0,10
+arc_distance,L3 Misses,2754027648.0,1
+arc_distance,L3 DRead + DWrite,285531520.0,1
+arc_distance,L3 DMisses,2754027648.0,1
+arc_distance,L3 Access,3323504320.0,1
+arc_distance,LST,7313103860.0,1
+arc_distance,L3 Misses,2763274624.0,2
+arc_distance,L3 DRead + DWrite,293605504.0,2
+arc_distance,L3 DMisses,2763274624.0,2
+arc_distance,L3 Access,3326697600.0,2
+arc_distance,LST,7315541016.0,2
+arc_distance,L3 Misses,2750576640.0,3
+arc_distance,L3 DRead + DWrite,284474240.0,3
+arc_distance,L3 DMisses,2750576640.0,3
+arc_distance,L3 Access,3322366720.0,3
+arc_distance,LST,7315259320.0,3
+arc_distance,L3 Misses,2761515584.0,4
+arc_distance,L3 DRead + DWrite,294029568.0,4
+arc_distance,L3 DMisses,2761515584.0,4
+arc_distance,L3 Access,3324806848.0,4
+arc_distance,LST,7314856252.0,4
+arc_distance,L3 Misses,2754663040.0,5
+arc_distance,L3 DRead + DWrite,285098112.0,5
+arc_distance,L3 DMisses,2754663040.0,5
+arc_distance,L3 Access,3325148544.0,5
+arc_distance,LST,7315407656.0,5
+arc_distance,L3 Misses,2778508928.0,6
+arc_distance,L3 DRead + DWrite,288980352.0,6
+arc_distance,L3 DMisses,2778508928.0,6
+arc_distance,L3 Access,3326651904.0,6
+arc_distance,LST,7314807956.0,6
+arc_distance,L3 Misses,2751232064.0,7
+arc_distance,L3 DRead + DWrite,282639040.0,7
+arc_distance,L3 DMisses,2751232064.0,7
+arc_distance,L3 Access,3321495296.0,7
+arc_distance,LST,7315425928.0,7
+arc_distance,L3 Misses,2769777472.0,8
+arc_distance,L3 DRead + DWrite,289915712.0,8
+arc_distance,L3 DMisses,2769777472.0,8
+arc_distance,L3 Access,3324476096.0,8
+arc_distance,LST,7318412468.0,8
+arc_distance,L3 Misses,2752897792.0,9
+arc_distance,L3 DRead + DWrite,284083584.0,9
+arc_distance,L3 DMisses,2752897792.0,9
+arc_distance,L3 Access,3324150016.0,9
+arc_distance,LST,7314734296.0,9
+arc_distance,L3 Misses,2768785856.0,10
+arc_distance,L3 DRead + DWrite,292948160.0,10
+arc_distance,L3 DMisses,2768785856.0,10
+arc_distance,L3 Access,3326410560.0,10
+arc_distance,LST,7314658576.0,10
+cavity_flow,L3 Misses,1915247936.0,1
+cavity_flow,L3 DRead + DWrite,3166344576.0,1
+cavity_flow,L3 DMisses,1915247936.0,1
+cavity_flow,L3 Access,8304645248.0,1
+cavity_flow,LST,11321908248.0,1
+cavity_flow,L3 Misses,1907419520.0,2
+cavity_flow,L3 DRead + DWrite,3164866624.0,2
+cavity_flow,L3 DMisses,1907419520.0,2
+cavity_flow,L3 Access,8285815424.0,2
+cavity_flow,LST,11308202572.0,2
+cavity_flow,L3 Misses,1915450432.0,3
+cavity_flow,L3 DRead + DWrite,3157332096.0,3
+cavity_flow,L3 DMisses,1915450432.0,3
+cavity_flow,L3 Access,8272365440.0,3
+cavity_flow,LST,11300958404.0,3
+cavity_flow,L3 Misses,1913974464.0,4
+cavity_flow,L3 DRead + DWrite,3131611520.0,4
+cavity_flow,L3 DMisses,1913974464.0,4
+cavity_flow,L3 Access,8293587072.0,4
+cavity_flow,LST,11311133576.0,4
+cavity_flow,L3 Misses,1922165120.0,5
+cavity_flow,L3 DRead + DWrite,3141541888.0,5
+cavity_flow,L3 DMisses,1922165120.0,5
+cavity_flow,L3 Access,8336862656.0,5
+cavity_flow,LST,11317213768.0,5
+cavity_flow,L3 Misses,1908513344.0,6
+cavity_flow,L3 DRead + DWrite,3142622784.0,6
+cavity_flow,L3 DMisses,1908513344.0,6
+cavity_flow,L3 Access,8323129408.0,6
+cavity_flow,LST,11317747464.0,6
+cavity_flow,L3 Misses,1911162240.0,7
+cavity_flow,L3 DRead + DWrite,3123765696.0,7
+cavity_flow,L3 DMisses,1911162240.0,7
+cavity_flow,L3 Access,8364050304.0,7
+cavity_flow,LST,11307205812.0,7
+cavity_flow,L3 Misses,1915113216.0,8
+cavity_flow,L3 DRead + DWrite,3129353408.0,8
+cavity_flow,L3 DMisses,1915113216.0,8
+cavity_flow,L3 Access,8329309824.0,8
+cavity_flow,LST,11308768928.0,8
+cavity_flow,L3 Misses,1923168640.0,9
+cavity_flow,L3 DRead + DWrite,3150043008.0,9
+cavity_flow,L3 DMisses,1923168640.0,9
+cavity_flow,L3 Access,8289290944.0,9
+cavity_flow,LST,11307132464.0,9
+cavity_flow,L3 Misses,1915456064.0,10
+cavity_flow,L3 DRead + DWrite,3130452416.0,10
+cavity_flow,L3 DMisses,1915456064.0,10
+cavity_flow,L3 Access,8299133376.0,10
+cavity_flow,LST,11310615024.0,10
+compute,L3 Misses,22238592448.0,1
+compute,L3 DRead + DWrite,2376027456.0,1
+compute,L3 DMisses,22238592448.0,1
+compute,L3 Access,26452219456.0,1
+compute,LST,15454210784.0,1
+compute,L3 Misses,23027281216.0,2
+compute,L3 DRead + DWrite,2439806592.0,2
+compute,L3 DMisses,23027281216.0,2
+compute,L3 Access,26481928512.0,2
+compute,LST,15433538700.0,2
+compute,L3 Misses,22257465536.0,3
+compute,L3 DRead + DWrite,2384631360.0,3
+compute,L3 DMisses,22257465536.0,3
+compute,L3 Access,26454302080.0,3
+compute,LST,15453977440.0,3
+compute,L3 Misses,23018070336.0,4
+compute,L3 DRead + DWrite,2430620224.0,4
+compute,L3 DMisses,23018070336.0,4
+compute,L3 Access,26483106560.0,4
+compute,LST,15433372328.0,4
+compute,L3 Misses,22268742528.0,5
+compute,L3 DRead + DWrite,2376145536.0,5
+compute,L3 DMisses,22268742528.0,5
+compute,L3 Access,26452592256.0,5
+compute,LST,15451643836.0,5
+compute,L3 Misses,23031981504.0,6
+compute,L3 DRead + DWrite,2424505280.0,6
+compute,L3 DMisses,23031981504.0,6
+compute,L3 Access,26482073600.0,6
+compute,LST,15431638932.0,6
+compute,L3 Misses,22241601792.0,7
+compute,L3 DRead + DWrite,2372912576.0,7
+compute,L3 DMisses,22241601792.0,7
+compute,L3 Access,26454383680.0,7
+compute,LST,15452584784.0,7
+compute,L3 Misses,23054210752.0,8
+compute,L3 DRead + DWrite,2443588480.0,8
+compute,L3 DMisses,23054210752.0,8
+compute,L3 Access,26483239424.0,8
+compute,LST,15433573068.0,8
+compute,L3 Misses,22251882240.0,9
+compute,L3 DRead + DWrite,2372133440.0,9
+compute,L3 DMisses,22251882240.0,9
+compute,L3 Access,26452219584.0,9
+compute,LST,15452385596.0,9
+compute,L3 Misses,23071904384.0,10
+compute,L3 DRead + DWrite,2435766400.0,10
+compute,L3 DMisses,23071904384.0,10
+compute,L3 Access,26481981760.0,10
+compute,LST,15433942500.0,10
+conv2d_bias,L3 Misses,974418112.0,1
+conv2d_bias,L3 DRead + DWrite,13612055744.0,1
+conv2d_bias,L3 DMisses,974418112.0,1
+conv2d_bias,L3 Access,23146643584.0,1
+conv2d_bias,LST,21344979836.0,1
+conv2d_bias,L3 Misses,977644864.0,2
+conv2d_bias,L3 DRead + DWrite,13755318208.0,2
+conv2d_bias,L3 DMisses,977644864.0,2
+conv2d_bias,L3 Access,23424135488.0,2
+conv2d_bias,LST,21272875104.0,2
+conv2d_bias,L3 Misses,990385792.0,3
+conv2d_bias,L3 DRead + DWrite,13657228416.0,3
+conv2d_bias,L3 DMisses,990385792.0,3
+conv2d_bias,L3 Access,42966842368.0,3
+conv2d_bias,LST,21554313120.0,3
+conv2d_bias,L3 Misses,995196288.0,4
+conv2d_bias,L3 DRead + DWrite,13118699328.0,4
+conv2d_bias,L3 DMisses,995196288.0,4
+conv2d_bias,L3 Access,43207136832.0,4
+conv2d_bias,LST,21073082868.0,4
+conv2d_bias,L3 Misses,976016000.0,5
+conv2d_bias,L3 DRead + DWrite,13469969088.0,5
+conv2d_bias,L3 DMisses,976016000.0,5
+conv2d_bias,L3 Access,32334123328.0,5
+conv2d_bias,LST,21519677988.0,5
+conv2d_bias,L3 Misses,978186048.0,6
+conv2d_bias,L3 DRead + DWrite,13603742400.0,6
+conv2d_bias,L3 DMisses,978186048.0,6
+conv2d_bias,L3 Access,29385020160.0,6
+conv2d_bias,LST,23034202096.0,6
+conv2d_bias,L3 Misses,982175872.0,7
+conv2d_bias,L3 DRead + DWrite,13436255552.0,7
+conv2d_bias,L3 DMisses,982175872.0,7
+conv2d_bias,L3 Access,28224947584.0,7
+conv2d_bias,LST,21756287592.0,7
+conv2d_bias,L3 Misses,981837824.0,8
+conv2d_bias,L3 DRead + DWrite,13760481728.0,8
+conv2d_bias,L3 DMisses,981837824.0,8
+conv2d_bias,L3 Access,28604191744.0,8
+conv2d_bias,LST,21605799112.0,8
+conv2d_bias,L3 Misses,977700224.0,9
+conv2d_bias,L3 DRead + DWrite,13730600000.0,9
+conv2d_bias,L3 DMisses,977700224.0,9
+conv2d_bias,L3 Access,26119038528.0,9
+conv2d_bias,LST,22179073292.0,9
+conv2d_bias,L3 Misses,978725120.0,10
+conv2d_bias,L3 DRead + DWrite,13108340608.0,10
+conv2d_bias,L3 DMisses,978725120.0,10
+conv2d_bias,L3 Access,41324578624.0,10
+conv2d_bias,LST,21612583144.0,10
+crc16,L3 Misses,11392.0,1
+crc16,L3 DRead + DWrite,31488.0,1
+crc16,L3 DMisses,11392.0,1
+crc16,L3 Access,213376.0,1
+crc16,LST,10579348.0,1
+crc16,L3 Misses,12352.0,2
+crc16,L3 DRead + DWrite,28288.0,2
+crc16,L3 DMisses,12352.0,2
+crc16,L3 Access,204736.0,2
+crc16,LST,10197348.0,2
+crc16,L3 Misses,12736.0,3
+crc16,L3 DRead + DWrite,28288.0,3
+crc16,L3 DMisses,12736.0,3
+crc16,L3 Access,207680.0,3
+crc16,LST,10386532.0,3
+crc16,L3 Misses,13376.0,4
+crc16,L3 DRead + DWrite,31744.0,4
+crc16,L3 DMisses,13376.0,4
+crc16,L3 Access,209472.0,4
+crc16,LST,10079224.0,4
+crc16,L3 Misses,12352.0,5
+crc16,L3 DRead + DWrite,33408.0,5
+crc16,L3 DMisses,12352.0,5
+crc16,L3 Access,212480.0,5
+crc16,LST,10216232.0,5
+crc16,L3 Misses,13248.0,6
+crc16,L3 DRead + DWrite,31808.0,6
+crc16,L3 DMisses,13248.0,6
+crc16,L3 Access,214016.0,6
+crc16,LST,10119808.0,6
+crc16,L3 Misses,13184.0,7
+crc16,L3 DRead + DWrite,29120.0,7
+crc16,L3 DMisses,13184.0,7
+crc16,L3 Access,210752.0,7
+crc16,LST,10588268.0,7
+crc16,L3 Misses,9216.0,8
+crc16,L3 DRead + DWrite,29568.0,8
+crc16,L3 DMisses,9216.0,8
+crc16,L3 Access,213248.0,8
+crc16,LST,10115116.0,8
+crc16,L3 Misses,11072.0,9
+crc16,L3 DRead + DWrite,27328.0,9
+crc16,L3 DMisses,11072.0,9
+crc16,L3 Access,211456.0,9
+crc16,LST,10095084.0,9
+crc16,L3 Misses,12224.0,10
+crc16,L3 DRead + DWrite,29568.0,10
+crc16,L3 DMisses,12224.0,10
+crc16,L3 Access,211712.0,10
+crc16,LST,10096252.0,10
+deriche,L3 Misses,8293595072.0,1
+deriche,L3 DRead + DWrite,13309137216.0,1
+deriche,L3 DMisses,8293595072.0,1
+deriche,L3 Access,25853290688.0,1
+deriche,LST,12213894744.0,1
+deriche,L3 Misses,8313843392.0,2
+deriche,L3 DRead + DWrite,13287362240.0,2
+deriche,L3 DMisses,8313843392.0,2
+deriche,L3 Access,26104406976.0,2
+deriche,LST,12198697928.0,2
+deriche,L3 Misses,8312489216.0,3
+deriche,L3 DRead + DWrite,13285796992.0,3
+deriche,L3 DMisses,8312489216.0,3
+deriche,L3 Access,26176522048.0,3
+deriche,LST,12189720564.0,3
+deriche,L3 Misses,8372971328.0,4
+deriche,L3 DRead + DWrite,13287316864.0,4
+deriche,L3 DMisses,8372971328.0,4
+deriche,L3 Access,26070489344.0,4
+deriche,LST,12192545296.0,4
+deriche,L3 Misses,8317228288.0,5
+deriche,L3 DRead + DWrite,13315302656.0,5
+deriche,L3 DMisses,8317228288.0,5
+deriche,L3 Access,26125592128.0,5
+deriche,LST,12190687904.0,5
+deriche,L3 Misses,8364267904.0,6
+deriche,L3 DRead + DWrite,13320087680.0,6
+deriche,L3 DMisses,8364267904.0,6
+deriche,L3 Access,26057576320.0,6
+deriche,LST,12223685028.0,6
+deriche,L3 Misses,8356168000.0,7
+deriche,L3 DRead + DWrite,13287207680.0,7
+deriche,L3 DMisses,8356168000.0,7
+deriche,L3 Access,25964844096.0,7
+deriche,LST,12194952720.0,7
+deriche,L3 Misses,8330610944.0,8
+deriche,L3 DRead + DWrite,13295225536.0,8
+deriche,L3 DMisses,8330610944.0,8
+deriche,L3 Access,26235489984.0,8
+deriche,LST,12191333140.0,8
+deriche,L3 Misses,8300578112.0,9
+deriche,L3 DRead + DWrite,13309921152.0,9
+deriche,L3 DMisses,8300578112.0,9
+deriche,L3 Access,26043980416.0,9
+deriche,LST,12190915032.0,9
+deriche,L3 Misses,8274201088.0,10
+deriche,L3 DRead + DWrite,13312792512.0,10
+deriche,L3 DMisses,8274201088.0,10
+deriche,L3 Access,26183218432.0,10
+deriche,LST,12200156860.0,10
+fdtd_2d,L3 Misses,222827456.0,1
+fdtd_2d,L3 DRead + DWrite,423288448.0,1
+fdtd_2d,L3 DMisses,222827456.0,1
+fdtd_2d,L3 Access,9722007936.0,1
+fdtd_2d,LST,13013051480.0,1
+fdtd_2d,L3 Misses,243348800.0,2
+fdtd_2d,L3 DRead + DWrite,429520832.0,2
+fdtd_2d,L3 DMisses,243348800.0,2
+fdtd_2d,L3 Access,9668458176.0,2
+fdtd_2d,LST,13013769532.0,2
+fdtd_2d,L3 Misses,301907520.0,3
+fdtd_2d,L3 DRead + DWrite,447008640.0,3
+fdtd_2d,L3 DMisses,301907520.0,3
+fdtd_2d,L3 Access,9773645696.0,3
+fdtd_2d,LST,13015690808.0,3
+fdtd_2d,L3 Misses,220628288.0,4
+fdtd_2d,L3 DRead + DWrite,432553920.0,4
+fdtd_2d,L3 DMisses,220628288.0,4
+fdtd_2d,L3 Access,9674323072.0,4
+fdtd_2d,LST,13012848872.0,4
+fdtd_2d,L3 Misses,221809408.0,5
+fdtd_2d,L3 DRead + DWrite,411003328.0,5
+fdtd_2d,L3 DMisses,221809408.0,5
+fdtd_2d,L3 Access,9643330944.0,5
+fdtd_2d,LST,13008855028.0,5
+fdtd_2d,L3 Misses,228407168.0,6
+fdtd_2d,L3 DRead + DWrite,411771648.0,6
+fdtd_2d,L3 DMisses,228407168.0,6
+fdtd_2d,L3 Access,9699668992.0,6
+fdtd_2d,LST,13011278664.0,6
+fdtd_2d,L3 Misses,339692800.0,7
+fdtd_2d,L3 DRead + DWrite,431367232.0,7
+fdtd_2d,L3 DMisses,339692800.0,7
+fdtd_2d,L3 Access,9840584064.0,7
+fdtd_2d,LST,13017192596.0,7
+fdtd_2d,L3 Misses,254376640.0,8
+fdtd_2d,L3 DRead + DWrite,419917696.0,8
+fdtd_2d,L3 DMisses,254376640.0,8
+fdtd_2d,L3 Access,9813200960.0,8
+fdtd_2d,LST,13009752092.0,8
+fdtd_2d,L3 Misses,252838784.0,9
+fdtd_2d,L3 DRead + DWrite,419698304.0,9
+fdtd_2d,L3 DMisses,252838784.0,9
+fdtd_2d,L3 Access,9714032448.0,9
+fdtd_2d,LST,13014883688.0,9
+fdtd_2d,L3 Misses,315416448.0,10
+fdtd_2d,L3 DRead + DWrite,421239232.0,10
+fdtd_2d,L3 DMisses,315416448.0,10
+fdtd_2d,L3 Access,9679792320.0,10
+fdtd_2d,LST,13015506964.0,10
+floyd_warshall,L3 Misses,3706461120.0,1
+floyd_warshall,L3 DRead + DWrite,3724531904.0,1
+floyd_warshall,L3 DMisses,3706461120.0,1
+floyd_warshall,L3 Access,8006719424.0,1
+floyd_warshall,LST,17025686932.0,1
+floyd_warshall,L3 Misses,3711826176.0,2
+floyd_warshall,L3 DRead + DWrite,3772580032.0,2
+floyd_warshall,L3 DMisses,3711826176.0,2
+floyd_warshall,L3 Access,7997892608.0,2
+floyd_warshall,LST,17028478888.0,2
+floyd_warshall,L3 Misses,3703520640.0,3
+floyd_warshall,L3 DRead + DWrite,3731334080.0,3
+floyd_warshall,L3 DMisses,3703520640.0,3
+floyd_warshall,L3 Access,8010690944.0,3
+floyd_warshall,LST,17042143644.0,3
+floyd_warshall,L3 Misses,3708115136.0,4
+floyd_warshall,L3 DRead + DWrite,3750371072.0,4
+floyd_warshall,L3 DMisses,3708115136.0,4
+floyd_warshall,L3 Access,8010317120.0,4
+floyd_warshall,LST,17142081240.0,4
+floyd_warshall,L3 Misses,3709226752.0,5
+floyd_warshall,L3 DRead + DWrite,3801703232.0,5
+floyd_warshall,L3 DMisses,3709226752.0,5
+floyd_warshall,L3 Access,7990899648.0,5
+floyd_warshall,LST,17040651020.0,5
+floyd_warshall,L3 Misses,3705197440.0,6
+floyd_warshall,L3 DRead + DWrite,3804743680.0,6
+floyd_warshall,L3 DMisses,3705197440.0,6
+floyd_warshall,L3 Access,7996542464.0,6
+floyd_warshall,LST,17033029624.0,6
+floyd_warshall,L3 Misses,3710235904.0,7
+floyd_warshall,L3 DRead + DWrite,3755595840.0,7
+floyd_warshall,L3 DMisses,3710235904.0,7
+floyd_warshall,L3 Access,8019552704.0,7
+floyd_warshall,LST,17023072368.0,7
+floyd_warshall,L3 Misses,3703248256.0,8
+floyd_warshall,L3 DRead + DWrite,3749026752.0,8
+floyd_warshall,L3 DMisses,3703248256.0,8
+floyd_warshall,L3 Access,7993972096.0,8
+floyd_warshall,LST,17033134048.0,8
+floyd_warshall,L3 Misses,3711941888.0,9
+floyd_warshall,L3 DRead + DWrite,3766474752.0,9
+floyd_warshall,L3 DMisses,3711941888.0,9
+floyd_warshall,L3 Access,7993535168.0,9
+floyd_warshall,LST,17039431684.0,9
+floyd_warshall,L3 Misses,3705468032.0,10
+floyd_warshall,L3 DRead + DWrite,3747053632.0,10
+floyd_warshall,L3 DMisses,3705468032.0,10
+floyd_warshall,L3 Access,7985888896.0,10
+floyd_warshall,LST,17047653368.0,10
+go_fast,L3 Misses,5242339840.0,1
+go_fast,L3 DRead + DWrite,678414144.0,1
+go_fast,L3 DMisses,5242339840.0,1
+go_fast,L3 Access,6355438208.0,1
+go_fast,LST,3229098680.0,1
+go_fast,L3 Misses,6401181504.0,2
+go_fast,L3 DRead + DWrite,768591808.0,2
+go_fast,L3 DMisses,6401181504.0,2
+go_fast,L3 Access,6403614464.0,2
+go_fast,LST,3232002232.0,2
+go_fast,L3 Misses,5226741568.0,3
+go_fast,L3 DRead + DWrite,670477888.0,3
+go_fast,L3 DMisses,5226741568.0,3
+go_fast,L3 Access,6356723136.0,3
+go_fast,LST,3229771132.0,3
+go_fast,L3 Misses,6400869312.0,4
+go_fast,L3 DRead + DWrite,765982656.0,4
+go_fast,L3 DMisses,6400869312.0,4
+go_fast,L3 Access,6403706304.0,4
+go_fast,LST,3231713140.0,4
+go_fast,L3 Misses,5234014208.0,5
+go_fast,L3 DRead + DWrite,674911360.0,5
+go_fast,L3 DMisses,5234014208.0,5
+go_fast,L3 Access,6355486400.0,5
+go_fast,LST,3227096536.0,5
+go_fast,L3 Misses,6400520448.0,6
+go_fast,L3 DRead + DWrite,767666560.0,6
+go_fast,L3 DMisses,6400520448.0,6
+go_fast,L3 Access,6403781632.0,6
+go_fast,LST,3231745736.0,6
+go_fast,L3 Misses,5255449472.0,7
+go_fast,L3 DRead + DWrite,672735296.0,7
+go_fast,L3 DMisses,5255449472.0,7
+go_fast,L3 Access,6356865344.0,7
+go_fast,LST,3227320632.0,7
+go_fast,L3 Misses,6400775232.0,8
+go_fast,L3 DRead + DWrite,771131200.0,8
+go_fast,L3 DMisses,6400775232.0,8
+go_fast,L3 Access,6403587456.0,8
+go_fast,LST,3231124836.0,8
+go_fast,L3 Misses,5243002560.0,9
+go_fast,L3 DRead + DWrite,678284416.0,9
+go_fast,L3 DMisses,5243002560.0,9
+go_fast,L3 Access,6355376768.0,9
+go_fast,LST,3227675068.0,9
+go_fast,L3 Misses,6401133248.0,10
+go_fast,L3 DRead + DWrite,766317184.0,10
+go_fast,L3 DMisses,6401133248.0,10
+go_fast,L3 Access,6404096320.0,10
+go_fast,LST,3231425180.0,10
+hdiff,L3 Misses,8435849024.0,1
+hdiff,L3 DRead + DWrite,1038862528.0,1
+hdiff,L3 DMisses,8435849024.0,1
+hdiff,L3 Access,9852341056.0,1
+hdiff,LST,5375573240.0,1
+hdiff,L3 Misses,8438609216.0,2
+hdiff,L3 DRead + DWrite,1053783488.0,2
+hdiff,L3 DMisses,8438609216.0,2
+hdiff,L3 Access,9852177472.0,2
+hdiff,LST,5374602704.0,2
+hdiff,L3 Misses,8435579648.0,3
+hdiff,L3 DRead + DWrite,1067667456.0,3
+hdiff,L3 DMisses,8435579648.0,3
+hdiff,L3 Access,9855271872.0,3
+hdiff,LST,5375301620.0,3
+hdiff,L3 Misses,8429923456.0,4
+hdiff,L3 DRead + DWrite,1093259136.0,4
+hdiff,L3 DMisses,8429923456.0,4
+hdiff,L3 Access,9853734272.0,4
+hdiff,LST,5374181304.0,4
+hdiff,L3 Misses,8423395712.0,5
+hdiff,L3 DRead + DWrite,1039209984.0,5
+hdiff,L3 DMisses,8423395712.0,5
+hdiff,L3 Access,9852907968.0,5
+hdiff,LST,5374638416.0,5
+hdiff,L3 Misses,8426958656.0,6
+hdiff,L3 DRead + DWrite,1053374656.0,6
+hdiff,L3 DMisses,8426958656.0,6
+hdiff,L3 Access,9852580416.0,6
+hdiff,LST,5375371980.0,6
+hdiff,L3 Misses,8427242496.0,7
+hdiff,L3 DRead + DWrite,1076718976.0,7
+hdiff,L3 DMisses,8427242496.0,7
+hdiff,L3 Access,9854815808.0,7
+hdiff,LST,5375891640.0,7
+hdiff,L3 Misses,8421446656.0,8
+hdiff,L3 DRead + DWrite,1087615552.0,8
+hdiff,L3 DMisses,8421446656.0,8
+hdiff,L3 Access,9853585472.0,8
+hdiff,LST,5376175060.0,8
+hdiff,L3 Misses,8430999872.0,9
+hdiff,L3 DRead + DWrite,1049934592.0,9
+hdiff,L3 DMisses,8430999872.0,9
+hdiff,L3 Access,9852031296.0,9
+hdiff,LST,5375731268.0,9
+hdiff,L3 Misses,8419151808.0,10
+hdiff,L3 DRead + DWrite,1059115072.0,10
+hdiff,L3 DMisses,8419151808.0,10
+hdiff,L3 Access,9853190976.0,10
+hdiff,LST,5377157856.0,10
+heat_3d,L3 Misses,3095328000.0,1
+heat_3d,L3 DRead + DWrite,1048415744.0,1
+heat_3d,L3 DMisses,3095328000.0,1
+heat_3d,L3 Access,10298192320.0,1
+heat_3d,LST,10425363304.0,1
+heat_3d,L3 Misses,3173665344.0,2
+heat_3d,L3 DRead + DWrite,1007879680.0,2
+heat_3d,L3 DMisses,3173665344.0,2
+heat_3d,L3 Access,10328939136.0,2
+heat_3d,LST,10420976868.0,2
+heat_3d,L3 Misses,3098896640.0,3
+heat_3d,L3 DRead + DWrite,1008185344.0,3
+heat_3d,L3 DMisses,3098896640.0,3
+heat_3d,L3 Access,10325451008.0,3
+heat_3d,LST,10423768556.0,3
+heat_3d,L3 Misses,3125490880.0,4
+heat_3d,L3 DRead + DWrite,1054193984.0,4
+heat_3d,L3 DMisses,3125490880.0,4
+heat_3d,L3 Access,10307527040.0,4
+heat_3d,LST,10421792296.0,4
+heat_3d,L3 Misses,3116073792.0,5
+heat_3d,L3 DRead + DWrite,1027946624.0,5
+heat_3d,L3 DMisses,3116073792.0,5
+heat_3d,L3 Access,10332863360.0,5
+heat_3d,LST,10418493508.0,5
+heat_3d,L3 Misses,3044271232.0,6
+heat_3d,L3 DRead + DWrite,999483584.0,6
+heat_3d,L3 DMisses,3044271232.0,6
+heat_3d,L3 Access,10322478144.0,6
+heat_3d,LST,10419228436.0,6
+heat_3d,L3 Misses,3064745024.0,7
+heat_3d,L3 DRead + DWrite,1011302272.0,7
+heat_3d,L3 DMisses,3064745024.0,7
+heat_3d,L3 Access,10336278592.0,7
+heat_3d,LST,10413572096.0,7
+heat_3d,L3 Misses,3061778752.0,8
+heat_3d,L3 DRead + DWrite,1020201856.0,8
+heat_3d,L3 DMisses,3061778752.0,8
+heat_3d,L3 Access,10316498368.0,8
+heat_3d,LST,10414648416.0,8
+heat_3d,L3 Misses,3111472192.0,9
+heat_3d,L3 DRead + DWrite,1035127488.0,9
+heat_3d,L3 DMisses,3111472192.0,9
+heat_3d,L3 Access,10314120960.0,9
+heat_3d,LST,10417099260.0,9
+heat_3d,L3 Misses,3144852288.0,10
+heat_3d,L3 DRead + DWrite,1026422784.0,10
+heat_3d,L3 DMisses,3144852288.0,10
+heat_3d,L3 Access,10328816832.0,10
+heat_3d,LST,10419524540.0,10
+jacobi_1d,L3 Misses,8383922048.0,1
+jacobi_1d,L3 DRead + DWrite,10122826752.0,1
+jacobi_1d,L3 DMisses,8383922048.0,1
+jacobi_1d,L3 Access,22875178624.0,1
+jacobi_1d,LST,24473541804.0,1
+jacobi_1d,L3 Misses,8356647296.0,2
+jacobi_1d,L3 DRead + DWrite,10111594112.0,2
+jacobi_1d,L3 DMisses,8356647296.0,2
+jacobi_1d,L3 Access,22942634816.0,2
+jacobi_1d,LST,24433688064.0,2
+jacobi_1d,L3 Misses,8417482112.0,3
+jacobi_1d,L3 DRead + DWrite,10184146176.0,3
+jacobi_1d,L3 DMisses,8417482112.0,3
+jacobi_1d,L3 Access,23088262016.0,3
+jacobi_1d,LST,24422702048.0,3
+jacobi_1d,L3 Misses,8368415168.0,4
+jacobi_1d,L3 DRead + DWrite,10180153536.0,4
+jacobi_1d,L3 DMisses,8368415168.0,4
+jacobi_1d,L3 Access,22961372096.0,4
+jacobi_1d,LST,24423665652.0,4
+jacobi_1d,L3 Misses,8409970752.0,5
+jacobi_1d,L3 DRead + DWrite,10201396480.0,5
+jacobi_1d,L3 DMisses,8409970752.0,5
+jacobi_1d,L3 Access,22994627328.0,5
+jacobi_1d,LST,24440550728.0,5
+jacobi_1d,L3 Misses,8404397760.0,6
+jacobi_1d,L3 DRead + DWrite,10141606528.0,6
+jacobi_1d,L3 DMisses,8404397760.0,6
+jacobi_1d,L3 Access,23058581696.0,6
+jacobi_1d,LST,24450919852.0,6
+jacobi_1d,L3 Misses,8395296704.0,7
+jacobi_1d,L3 DRead + DWrite,10127301376.0,7
+jacobi_1d,L3 DMisses,8395296704.0,7
+jacobi_1d,L3 Access,22807323200.0,7
+jacobi_1d,LST,24423775820.0,7
+jacobi_1d,L3 Misses,8374800320.0,8
+jacobi_1d,L3 DRead + DWrite,10088873728.0,8
+jacobi_1d,L3 DMisses,8374800320.0,8
+jacobi_1d,L3 Access,22966032640.0,8
+jacobi_1d,LST,24427006904.0,8
+jacobi_1d,L3 Misses,8488060736.0,9
+jacobi_1d,L3 DRead + DWrite,10190143872.0,9
+jacobi_1d,L3 DMisses,8488060736.0,9
+jacobi_1d,L3 Access,22979416832.0,9
+jacobi_1d,LST,24483640312.0,9
+jacobi_1d,L3 Misses,8428414656.0,10
+jacobi_1d,L3 DRead + DWrite,10099564608.0,10
+jacobi_1d,L3 DMisses,8428414656.0,10
+jacobi_1d,L3 Access,22984685120.0,10
+jacobi_1d,LST,24446302372.0,10
+jacobi_2d,L3 Misses,2500582784.0,1
+jacobi_2d,L3 DRead + DWrite,2712252032.0,1
+jacobi_2d,L3 DMisses,2500582784.0,1
+jacobi_2d,L3 Access,9892828608.0,1
+jacobi_2d,LST,12175046900.0,1
+jacobi_2d,L3 Misses,2578075136.0,2
+jacobi_2d,L3 DRead + DWrite,2709148864.0,2
+jacobi_2d,L3 DMisses,2578075136.0,2
+jacobi_2d,L3 Access,9844969344.0,2
+jacobi_2d,LST,12258170056.0,2
+jacobi_2d,L3 Misses,2518143872.0,3
+jacobi_2d,L3 DRead + DWrite,2720875776.0,3
+jacobi_2d,L3 DMisses,2518143872.0,3
+jacobi_2d,L3 Access,9717075840.0,3
+jacobi_2d,LST,12088760428.0,3
+jacobi_2d,L3 Misses,2582707392.0,4
+jacobi_2d,L3 DRead + DWrite,2695784192.0,4
+jacobi_2d,L3 DMisses,2582707392.0,4
+jacobi_2d,L3 Access,9807609728.0,4
+jacobi_2d,LST,12154358388.0,4
+jacobi_2d,L3 Misses,2524222976.0,5
+jacobi_2d,L3 DRead + DWrite,2728350016.0,5
+jacobi_2d,L3 DMisses,2524222976.0,5
+jacobi_2d,L3 Access,9699427456.0,5
+jacobi_2d,LST,12154306140.0,5
+jacobi_2d,L3 Misses,2502216704.0,6
+jacobi_2d,L3 DRead + DWrite,2687186880.0,6
+jacobi_2d,L3 DMisses,2502216704.0,6
+jacobi_2d,L3 Access,9905995264.0,6
+jacobi_2d,LST,12165481976.0,6
+jacobi_2d,L3 Misses,2524035904.0,7
+jacobi_2d,L3 DRead + DWrite,2723864192.0,7
+jacobi_2d,L3 DMisses,2524035904.0,7
+jacobi_2d,L3 Access,9675165248.0,7
+jacobi_2d,LST,12202551900.0,7
+jacobi_2d,L3 Misses,2501066368.0,8
+jacobi_2d,L3 DRead + DWrite,2701726400.0,8
+jacobi_2d,L3 DMisses,2501066368.0,8
+jacobi_2d,L3 Access,9760958592.0,8
+jacobi_2d,LST,12253583200.0,8
+jacobi_2d,L3 Misses,2558556480.0,9
+jacobi_2d,L3 DRead + DWrite,2733257280.0,9
+jacobi_2d,L3 DMisses,2558556480.0,9
+jacobi_2d,L3 Access,9918694016.0,9
+jacobi_2d,LST,12210959496.0,9
+jacobi_2d,L3 Misses,2528579776.0,10
+jacobi_2d,L3 DRead + DWrite,2692734336.0,10
+jacobi_2d,L3 DMisses,2528579776.0,10
+jacobi_2d,L3 Access,9953213760.0,10
+jacobi_2d,LST,12276062892.0,10
+nussinov,L3 Misses,170880.0,1
+nussinov,L3 DRead + DWrite,169984.0,1
+nussinov,L3 DMisses,170880.0,1
+nussinov,L3 Access,441920.0,1
+nussinov,LST,31031840.0,1
+nussinov,L3 Misses,171136.0,2
+nussinov,L3 DRead + DWrite,175360.0,2
+nussinov,L3 DMisses,171136.0,2
+nussinov,L3 Access,443648.0,2
+nussinov,LST,30636800.0,2
+nussinov,L3 Misses,171520.0,3
+nussinov,L3 DRead + DWrite,170176.0,3
+nussinov,L3 DMisses,171520.0,3
+nussinov,L3 Access,445760.0,3
+nussinov,LST,30618200.0,3
+nussinov,L3 Misses,166592.0,4
+nussinov,L3 DRead + DWrite,165824.0,4
+nussinov,L3 DMisses,166592.0,4
+nussinov,L3 Access,441408.0,4
+nussinov,LST,30627548.0,4
+nussinov,L3 Misses,170496.0,5
+nussinov,L3 DRead + DWrite,167680.0,5
+nussinov,L3 DMisses,170496.0,5
+nussinov,L3 Access,457472.0,5
+nussinov,LST,31053520.0,5
+nussinov,L3 Misses,161728.0,6
+nussinov,L3 DRead + DWrite,171264.0,6
+nussinov,L3 DMisses,161728.0,6
+nussinov,L3 Access,431424.0,6
+nussinov,LST,30640296.0,6
+nussinov,L3 Misses,167744.0,7
+nussinov,L3 DRead + DWrite,173824.0,7
+nussinov,L3 DMisses,167744.0,7
+nussinov,L3 Access,445696.0,7
+nussinov,LST,30672288.0,7
+nussinov,L3 Misses,170368.0,8
+nussinov,L3 DRead + DWrite,165056.0,8
+nussinov,L3 DMisses,170368.0,8
+nussinov,L3 Access,432384.0,8
+nussinov,LST,30630336.0,8
+nussinov,L3 Misses,170304.0,9
+nussinov,L3 DRead + DWrite,179392.0,9
+nussinov,L3 DMisses,170304.0,9
+nussinov,L3 Access,440192.0,9
+nussinov,LST,31051548.0,9
+nussinov,L3 Misses,164672.0,10
+nussinov,L3 DRead + DWrite,164672.0,10
+nussinov,L3 DMisses,164672.0,10
+nussinov,L3 Access,433216.0,10
+nussinov,LST,30634776.0,10
+resnet,L3 Misses,894410560.0,1
+resnet,L3 DRead + DWrite,1319079680.0,1
+resnet,L3 DMisses,894410560.0,1
+resnet,L3 Access,3357099584.0,1
+resnet,LST,19262561436.0,1
+resnet,L3 Misses,888880256.0,2
+resnet,L3 DRead + DWrite,1315205376.0,2
+resnet,L3 DMisses,888880256.0,2
+resnet,L3 Access,3391461376.0,2
+resnet,LST,19261883264.0,2
+resnet,L3 Misses,921438976.0,3
+resnet,L3 DRead + DWrite,1322198144.0,3
+resnet,L3 DMisses,921438976.0,3
+resnet,L3 Access,3340289152.0,3
+resnet,LST,19263785228.0,3
+resnet,L3 Misses,894332224.0,4
+resnet,L3 DRead + DWrite,1320759040.0,4
+resnet,L3 DMisses,894332224.0,4
+resnet,L3 Access,3486539264.0,4
+resnet,LST,19262330024.0,4
+resnet,L3 Misses,910094208.0,5
+resnet,L3 DRead + DWrite,1321415104.0,5
+resnet,L3 DMisses,910094208.0,5
+resnet,L3 Access,3328398144.0,5
+resnet,LST,19262826092.0,5
+resnet,L3 Misses,877426944.0,6
+resnet,L3 DRead + DWrite,1327827200.0,6
+resnet,L3 DMisses,877426944.0,6
+resnet,L3 Access,3258665664.0,6
+resnet,LST,19268051316.0,6
+resnet,L3 Misses,914313600.0,7
+resnet,L3 DRead + DWrite,1324532736.0,7
+resnet,L3 DMisses,914313600.0,7
+resnet,L3 Access,3379528960.0,7
+resnet,LST,19262881168.0,7
+resnet,L3 Misses,913640192.0,8
+resnet,L3 DRead + DWrite,1311630848.0,8
+resnet,L3 DMisses,913640192.0,8
+resnet,L3 Access,3234293760.0,8
+resnet,LST,19259481140.0,8
+resnet,L3 Misses,866090368.0,9
+resnet,L3 DRead + DWrite,1321448576.0,9
+resnet,L3 DMisses,866090368.0,9
+resnet,L3 Access,3321550784.0,9
+resnet,LST,19262668180.0,9
+resnet,L3 Misses,910546816.0,10
+resnet,L3 DRead + DWrite,1320409792.0,10
+resnet,L3 DMisses,910546816.0,10
+resnet,L3 Access,3280284928.0,10
+resnet,LST,19261278712.0,10
+seidel_2d,L3 Misses,2001547968.0,1
+seidel_2d,L3 DRead + DWrite,2905101888.0,1
+seidel_2d,L3 DMisses,2001547968.0,1
+seidel_2d,L3 Access,6981373184.0,1
+seidel_2d,LST,1837337784.0,1
+seidel_2d,L3 Misses,1959027904.0,2
+seidel_2d,L3 DRead + DWrite,2907665856.0,2
+seidel_2d,L3 DMisses,1959027904.0,2
+seidel_2d,L3 Access,6696029056.0,2
+seidel_2d,LST,1838602560.0,2
+seidel_2d,L3 Misses,1791940032.0,3
+seidel_2d,L3 DRead + DWrite,2921375488.0,3
+seidel_2d,L3 DMisses,1791940032.0,3
+seidel_2d,L3 Access,6568304960.0,3
+seidel_2d,LST,1837569956.0,3
+seidel_2d,L3 Misses,1929710016.0,4
+seidel_2d,L3 DRead + DWrite,2915457792.0,4
+seidel_2d,L3 DMisses,1929710016.0,4
+seidel_2d,L3 Access,6492445440.0,4
+seidel_2d,LST,1827701876.0,4
+seidel_2d,L3 Misses,1872808384.0,5
+seidel_2d,L3 DRead + DWrite,2900368128.0,5
+seidel_2d,L3 DMisses,1872808384.0,5
+seidel_2d,L3 Access,6722545600.0,5
+seidel_2d,LST,1830407012.0,5
+seidel_2d,L3 Misses,1974990720.0,6
+seidel_2d,L3 DRead + DWrite,2907687808.0,6
+seidel_2d,L3 DMisses,1974990720.0,6
+seidel_2d,L3 Access,6942102528.0,6
+seidel_2d,LST,1831758780.0,6
+seidel_2d,L3 Misses,1962768576.0,7
+seidel_2d,L3 DRead + DWrite,2900496384.0,7
+seidel_2d,L3 DMisses,1962768576.0,7
+seidel_2d,L3 Access,6931357120.0,7
+seidel_2d,LST,1830974568.0,7
+seidel_2d,L3 Misses,1878201920.0,8
+seidel_2d,L3 DRead + DWrite,2905323840.0,8
+seidel_2d,L3 DMisses,1878201920.0,8
+seidel_2d,L3 Access,6739124544.0,8
+seidel_2d,LST,1833354848.0,8
+seidel_2d,L3 Misses,1865262656.0,9
+seidel_2d,L3 DRead + DWrite,2917250496.0,9
+seidel_2d,L3 DMisses,1865262656.0,9
+seidel_2d,L3 Access,6675333056.0,9
+seidel_2d,LST,1830956204.0,9
+seidel_2d,L3 Misses,1882704384.0,10
+seidel_2d,L3 DRead + DWrite,2926165184.0,10
+seidel_2d,L3 DMisses,1882704384.0,10
+seidel_2d,L3 Access,6648414912.0,10
+seidel_2d,LST,1832036080.0,10
+syr2k,L3 Misses,32158451712.0,1
+syr2k,L3 DRead + DWrite,43669884096.0,1
+syr2k,L3 DMisses,32158451712.0,1
+syr2k,L3 Access,114356910848.0,1
+syr2k,LST,29535756688.0,1
+syr2k,L3 Misses,32376630464.0,2
+syr2k,L3 DRead + DWrite,43733970496.0,2
+syr2k,L3 DMisses,32376630464.0,2
+syr2k,L3 Access,113554529536.0,2
+syr2k,LST,29489610568.0,2
+syr2k,L3 Misses,32184056320.0,3
+syr2k,L3 DRead + DWrite,43814626240.0,3
+syr2k,L3 DMisses,32184056320.0,3
+syr2k,L3 Access,113319076224.0,3
+syr2k,LST,29568171292.0,3
+syr2k,L3 Misses,32372060288.0,4
+syr2k,L3 DRead + DWrite,43701179008.0,4
+syr2k,L3 DMisses,32372060288.0,4
+syr2k,L3 Access,115418402112.0,4
+syr2k,LST,29578323256.0,4
+syr2k,L3 Misses,32167542848.0,5
+syr2k,L3 DRead + DWrite,43694476736.0,5
+syr2k,L3 DMisses,32167542848.0,5
+syr2k,L3 Access,112894227904.0,5
+syr2k,LST,29589341884.0,5
+syr2k,L3 Misses,32189335104.0,6
+syr2k,L3 DRead + DWrite,43739472576.0,6
+syr2k,L3 DMisses,32189335104.0,6
+syr2k,L3 Access,113386604288.0,6
+syr2k,LST,29565231680.0,6
+syr2k,L3 Misses,32185534976.0,7
+syr2k,L3 DRead + DWrite,43788714176.0,7
+syr2k,L3 DMisses,32185534976.0,7
+syr2k,L3 Access,114823318912.0,7
+syr2k,LST,29575616876.0,7
+syr2k,L3 Misses,32390032896.0,8
+syr2k,L3 DRead + DWrite,43982494016.0,8
+syr2k,L3 DMisses,32390032896.0,8
+syr2k,L3 Access,116932748672.0,8
+syr2k,LST,29535800732.0,8
+syr2k,L3 Misses,32273814592.0,9
+syr2k,L3 DRead + DWrite,43922608896.0,9
+syr2k,L3 DMisses,32273814592.0,9
+syr2k,L3 Access,113550052608.0,9
+syr2k,LST,29542751288.0,9
+syr2k,L3 Misses,32201390720.0,10
+syr2k,L3 DRead + DWrite,44024942528.0,10
+syr2k,L3 DMisses,32201390720.0,10
+syr2k,L3 Access,115479570752.0,10
+syr2k,LST,29568612828.0,10
+syrk,L3 Misses,20535943040.0,1
+syrk,L3 DRead + DWrite,34380208320.0,1
+syrk,L3 DMisses,20535943040.0,1
+syrk,L3 Access,77256812288.0,1
+syrk,LST,22116728540.0,1
+syrk,L3 Misses,21533138816.0,2
+syrk,L3 DRead + DWrite,34396461952.0,2
+syrk,L3 DMisses,21533138816.0,2
+syrk,L3 Access,76500108800.0,2
+syrk,LST,21920390560.0,2
+syrk,L3 Misses,20969513088.0,3
+syrk,L3 DRead + DWrite,34519150336.0,3
+syrk,L3 DMisses,20969513088.0,3
+syrk,L3 Access,77224830208.0,3
+syrk,LST,22004158656.0,3
+syrk,L3 Misses,21474868224.0,4
+syrk,L3 DRead + DWrite,34589149824.0,4
+syrk,L3 DMisses,21474868224.0,4
+syrk,L3 Access,74741238720.0,4
+syrk,LST,21876761500.0,4
+syrk,L3 Misses,21024243008.0,5
+syrk,L3 DRead + DWrite,34428863296.0,5
+syrk,L3 DMisses,21024243008.0,5
+syrk,L3 Access,75874202560.0,5
+syrk,LST,21991354416.0,5
+syrk,L3 Misses,21474843776.0,6
+syrk,L3 DRead + DWrite,34633496896.0,6
+syrk,L3 DMisses,21474843776.0,6
+syrk,L3 Access,76532686208.0,6
+syrk,LST,21956953820.0,6
+syrk,L3 Misses,21447578368.0,7
+syrk,L3 DRead + DWrite,34268301248.0,7
+syrk,L3 DMisses,21447578368.0,7
+syrk,L3 Access,75179002496.0,7
+syrk,LST,22157546264.0,7
+syrk,L3 Misses,20292860672.0,8
+syrk,L3 DRead + DWrite,34326693184.0,8
+syrk,L3 DMisses,20292860672.0,8
+syrk,L3 Access,75540483904.0,8
+syrk,LST,22115569708.0,8
+syrk,L3 Misses,20878669056.0,9
+syrk,L3 DRead + DWrite,34469090112.0,9
+syrk,L3 DMisses,20878669056.0,9
+syrk,L3 Access,76333196928.0,9
+syrk,LST,22038587980.0,9
+syrk,L3 Misses,20935602432.0,10
+syrk,L3 DRead + DWrite,34700270080.0,10
+syrk,L3 DMisses,20935602432.0,10
+syrk,L3 Access,76514159552.0,10
+syrk,LST,21981889032.0,10
+vadv,L3 Misses,2725358016.0,1
+vadv,L3 DRead + DWrite,6050023744.0,1
+vadv,L3 DMisses,2725358016.0,1
+vadv,L3 Access,7230376768.0,1
+vadv,LST,3886550184.0,1
+vadv,L3 Misses,2718318336.0,2
+vadv,L3 DRead + DWrite,6054814912.0,2
+vadv,L3 DMisses,2718318336.0,2
+vadv,L3 Access,7230491264.0,2
+vadv,LST,3904619892.0,2
+vadv,L3 Misses,2734778816.0,3
+vadv,L3 DRead + DWrite,6048131648.0,3
+vadv,L3 DMisses,2734778816.0,3
+vadv,L3 Access,7230087232.0,3
+vadv,LST,3869065148.0,3
+vadv,L3 Misses,2720523072.0,4
+vadv,L3 DRead + DWrite,6056626496.0,4
+vadv,L3 DMisses,2720523072.0,4
+vadv,L3 Access,7228635456.0,4
+vadv,LST,3888487436.0,4
+vadv,L3 Misses,2743203008.0,5
+vadv,L3 DRead + DWrite,6058294016.0,5
+vadv,L3 DMisses,2743203008.0,5
+vadv,L3 Access,7228838400.0,5
+vadv,LST,3879635660.0,5
+vadv,L3 Misses,2727254080.0,6
+vadv,L3 DRead + DWrite,6045277184.0,6
+vadv,L3 DMisses,2727254080.0,6
+vadv,L3 Access,7235070464.0,6
+vadv,LST,3897299108.0,6
+vadv,L3 Misses,2729340992.0,7
+vadv,L3 DRead + DWrite,6060458240.0,7
+vadv,L3 DMisses,2729340992.0,7
+vadv,L3 Access,7221841984.0,7
+vadv,LST,3877122068.0,7
+vadv,L3 Misses,2720285376.0,8
+vadv,L3 DRead + DWrite,6054475968.0,8
+vadv,L3 DMisses,2720285376.0,8
+vadv,L3 Access,7229588736.0,8
+vadv,LST,3902602744.0,8
+vadv,L3 Misses,2727292224.0,9
+vadv,L3 DRead + DWrite,6049598272.0,9
+vadv,L3 DMisses,2727292224.0,9
+vadv,L3 Access,7233411648.0,9
+vadv,LST,3885220684.0,9
+vadv,L3 Misses,2715966144.0,10
+vadv,L3 DRead + DWrite,6057051648.0,10
+vadv,L3 DMisses,2715966144.0,10
+vadv,L3 Access,7231764032.0,10
+vadv,LST,3905151716.0,10
+adi,Symbolic Bytes,5161272336.0,1
+adi,Symbolic Bytes,5161272336.0,2
+adi,Symbolic Bytes,5161272336.0,3
+adi,Symbolic Bytes,5161272336.0,4
+adi,Symbolic Bytes,5161272336.0,5
+adi,Symbolic Bytes,5161272336.0,6
+adi,Symbolic Bytes,5161272336.0,7
+adi,Symbolic Bytes,5161272336.0,8
+adi,Symbolic Bytes,5161272336.0,9
+adi,Symbolic Bytes,5161272336.0,10
+arc_distance,Symbolic Bytes,399999960.0,1
+arc_distance,Symbolic Bytes,399999960.0,2
+arc_distance,Symbolic Bytes,399999960.0,3
+arc_distance,Symbolic Bytes,399999960.0,4
+arc_distance,Symbolic Bytes,399999960.0,5
+arc_distance,Symbolic Bytes,399999960.0,6
+arc_distance,Symbolic Bytes,399999960.0,7
+arc_distance,Symbolic Bytes,399999960.0,8
+arc_distance,Symbolic Bytes,399999960.0,9
+arc_distance,Symbolic Bytes,399999960.0,10
+cavity_flow,Symbolic Bytes,6875772800.0,1
+cavity_flow,Symbolic Bytes,6875772800.0,2
+cavity_flow,Symbolic Bytes,6875772800.0,3
+cavity_flow,Symbolic Bytes,6875772800.0,4
+cavity_flow,Symbolic Bytes,6875772800.0,5
+cavity_flow,Symbolic Bytes,6875772800.0,6
+cavity_flow,Symbolic Bytes,6875772800.0,7
+cavity_flow,Symbolic Bytes,6875772800.0,8
+cavity_flow,Symbolic Bytes,6875772800.0,9
+cavity_flow,Symbolic Bytes,6875772800.0,10
+compute,Symbolic Bytes,12287232024.0,1
+compute,Symbolic Bytes,12287232024.0,2
+compute,Symbolic Bytes,12287232024.0,3
+compute,Symbolic Bytes,12287232024.0,4
+compute,Symbolic Bytes,12287232024.0,5
+compute,Symbolic Bytes,12287232024.0,6
+compute,Symbolic Bytes,12287232024.0,7
+compute,Symbolic Bytes,12287232024.0,8
+compute,Symbolic Bytes,12287232024.0,9
+compute,Symbolic Bytes,12287232024.0,10
+conv2d_bias,Symbolic Bytes,1036832188.0,1
+conv2d_bias,Symbolic Bytes,1036832188.0,2
+conv2d_bias,Symbolic Bytes,1036832188.0,3
+conv2d_bias,Symbolic Bytes,1036832188.0,4
+conv2d_bias,Symbolic Bytes,1036832188.0,5
+conv2d_bias,Symbolic Bytes,1036832188.0,6
+conv2d_bias,Symbolic Bytes,1036832188.0,7
+conv2d_bias,Symbolic Bytes,1036832188.0,8
+conv2d_bias,Symbolic Bytes,1036832188.0,9
+conv2d_bias,Symbolic Bytes,1036832188.0,10
+deriche,Symbolic Bytes,7196353272.0,1
+deriche,Symbolic Bytes,7196353272.0,2
+deriche,Symbolic Bytes,7196353272.0,3
+deriche,Symbolic Bytes,7196353272.0,4
+deriche,Symbolic Bytes,7196353272.0,5
+deriche,Symbolic Bytes,7196353272.0,6
+deriche,Symbolic Bytes,7196353272.0,7
+deriche,Symbolic Bytes,7196353272.0,8
+deriche,Symbolic Bytes,7196353272.0,9
+deriche,Symbolic Bytes,7196353272.0,10
+fdtd_2d,Symbolic Bytes,8611588800.0,1
+fdtd_2d,Symbolic Bytes,8611588800.0,2
+fdtd_2d,Symbolic Bytes,8611588800.0,3
+fdtd_2d,Symbolic Bytes,8611588800.0,4
+fdtd_2d,Symbolic Bytes,8611588800.0,5
+fdtd_2d,Symbolic Bytes,8611588800.0,6
+fdtd_2d,Symbolic Bytes,8611588800.0,7
+fdtd_2d,Symbolic Bytes,8611588800.0,8
+fdtd_2d,Symbolic Bytes,8611588800.0,9
+fdtd_2d,Symbolic Bytes,8611588800.0,10
+go_fast,Symbolic Bytes,9600480024.0,1
+go_fast,Symbolic Bytes,9600480024.0,2
+go_fast,Symbolic Bytes,9600480024.0,3
+go_fast,Symbolic Bytes,9600480024.0,4
+go_fast,Symbolic Bytes,9600480024.0,5
+go_fast,Symbolic Bytes,9600480024.0,6
+go_fast,Symbolic Bytes,9600480024.0,7
+go_fast,Symbolic Bytes,9600480024.0,8
+go_fast,Symbolic Bytes,9600480024.0,9
+go_fast,Symbolic Bytes,9600480024.0,10
+hdiff,Symbolic Bytes,1876627392.0,1
+hdiff,Symbolic Bytes,1876627392.0,2
+hdiff,Symbolic Bytes,1876627392.0,3
+hdiff,Symbolic Bytes,1876627392.0,4
+hdiff,Symbolic Bytes,1876627392.0,5
+hdiff,Symbolic Bytes,1876627392.0,6
+hdiff,Symbolic Bytes,1876627392.0,7
+hdiff,Symbolic Bytes,1876627392.0,8
+hdiff,Symbolic Bytes,1876627392.0,9
+hdiff,Symbolic Bytes,1876627392.0,10
+heat_3d,Symbolic Bytes,1949584032.0,1
+heat_3d,Symbolic Bytes,1949584032.0,2
+heat_3d,Symbolic Bytes,1949584032.0,3
+heat_3d,Symbolic Bytes,1949584032.0,4
+heat_3d,Symbolic Bytes,1949584032.0,5
+heat_3d,Symbolic Bytes,1949584032.0,6
+heat_3d,Symbolic Bytes,1949584032.0,7
+heat_3d,Symbolic Bytes,1949584032.0,8
+heat_3d,Symbolic Bytes,1949584032.0,9
+heat_3d,Symbolic Bytes,1949584032.0,10
+jacobi_1d,Symbolic Bytes,9246368064.0,1
+jacobi_1d,Symbolic Bytes,9246368064.0,2
+jacobi_1d,Symbolic Bytes,9246368064.0,3
+jacobi_1d,Symbolic Bytes,9246368064.0,4
+jacobi_1d,Symbolic Bytes,9246368064.0,5
+jacobi_1d,Symbolic Bytes,9246368064.0,6
+jacobi_1d,Symbolic Bytes,9246368064.0,7
+jacobi_1d,Symbolic Bytes,9246368064.0,8
+jacobi_1d,Symbolic Bytes,9246368064.0,9
+jacobi_1d,Symbolic Bytes,9246368064.0,10
+jacobi_2d,Symbolic Bytes,3102521440.0,1
+jacobi_2d,Symbolic Bytes,3102521440.0,2
+jacobi_2d,Symbolic Bytes,3102521440.0,3
+jacobi_2d,Symbolic Bytes,3102521440.0,4
+jacobi_2d,Symbolic Bytes,3102521440.0,5
+jacobi_2d,Symbolic Bytes,3102521440.0,6
+jacobi_2d,Symbolic Bytes,3102521440.0,7
+jacobi_2d,Symbolic Bytes,3102521440.0,8
+jacobi_2d,Symbolic Bytes,3102521440.0,9
+jacobi_2d,Symbolic Bytes,3102521440.0,10
+resnet,Symbolic Bytes,4227198120.0,1
+resnet,Symbolic Bytes,4227198120.0,2
+resnet,Symbolic Bytes,4227198120.0,3
+resnet,Symbolic Bytes,4227198120.0,4
+resnet,Symbolic Bytes,4227198120.0,5
+resnet,Symbolic Bytes,4227198120.0,6
+resnet,Symbolic Bytes,4227198120.0,7
+resnet,Symbolic Bytes,4227198120.0,8
+resnet,Symbolic Bytes,4227198120.0,9
+resnet,Symbolic Bytes,4227198120.0,10
+seidel_2d,Symbolic Bytes,159011424.0,1
+seidel_2d,Symbolic Bytes,159011424.0,2
+seidel_2d,Symbolic Bytes,159011424.0,3
+seidel_2d,Symbolic Bytes,159011424.0,4
+seidel_2d,Symbolic Bytes,159011424.0,5
+seidel_2d,Symbolic Bytes,159011424.0,6
+seidel_2d,Symbolic Bytes,159011424.0,7
+seidel_2d,Symbolic Bytes,159011424.0,8
+seidel_2d,Symbolic Bytes,159011424.0,9
+seidel_2d,Symbolic Bytes,159011424.0,10
+syr2k,Symbolic Bytes,1578324800.0,1
+syr2k,Symbolic Bytes,1578324800.0,2
+syr2k,Symbolic Bytes,1578324800.0,3
+syr2k,Symbolic Bytes,1578324800.0,4
+syr2k,Symbolic Bytes,1578324800.0,5
+syr2k,Symbolic Bytes,1578324800.0,6
+syr2k,Symbolic Bytes,1578324800.0,7
+syr2k,Symbolic Bytes,1578324800.0,8
+syr2k,Symbolic Bytes,1578324800.0,9
+syr2k,Symbolic Bytes,1578324800.0,10
+syrk,Symbolic Bytes,2901127200.0,1
+syrk,Symbolic Bytes,2901127200.0,2
+syrk,Symbolic Bytes,2901127200.0,3
+syrk,Symbolic Bytes,2901127200.0,4
+syrk,Symbolic Bytes,2901127200.0,5
+syrk,Symbolic Bytes,2901127200.0,6
+syrk,Symbolic Bytes,2901127200.0,7
+syrk,Symbolic Bytes,2901127200.0,8
+syrk,Symbolic Bytes,2901127200.0,9
+syrk,Symbolic Bytes,2901127200.0,10
+vadv,Symbolic Bytes,1478064816.0,1
+vadv,Symbolic Bytes,1478064816.0,2
+vadv,Symbolic Bytes,1478064816.0,3
+vadv,Symbolic Bytes,1478064816.0,4
+vadv,Symbolic Bytes,1478064816.0,5
+vadv,Symbolic Bytes,1478064816.0,6
+vadv,Symbolic Bytes,1478064816.0,7
+vadv,Symbolic Bytes,1478064816.0,8
+vadv,Symbolic Bytes,1478064816.0,9
+vadv,Symbolic Bytes,1478064816.0,10

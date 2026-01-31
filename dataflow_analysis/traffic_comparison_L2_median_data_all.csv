@@ -1,0 +1,277 @@
+benchmark,metric,value
+adi,L2 Misses,93338776256.0
+adi,L2 DRead + DWrite,35993591424.0
+adi,L2 DMisses,93338776256.0
+adi,L2 Access,52658289728.0
+adi,LST,28851816400.0
+arc_distance,L2 Misses,3324284864.0
+arc_distance,L2 DRead + DWrite,2562232800.0
+arc_distance,L2 DMisses,3324284864.0
+arc_distance,L2 Access,1711343872.0
+arc_distance,LST,7315057786.0
+atax,L2 Misses,55914915744.0
+atax,L2 DRead + DWrite,32572825344.0
+atax,L2 DMisses,55914915744.0
+atax,L2 Access,32576771232.0
+atax,LST,20048432722.0
+azimint_hist,L2 Misses,0.0
+azimint_hist,L2 DRead + DWrite,0.0
+azimint_hist,L2 DMisses,0.0
+azimint_hist,L2 Access,0.0
+azimint_hist,LST,0.0
+azimint_naive,L2 Misses,1023891034592.0
+azimint_naive,L2 DRead + DWrite,0.0
+azimint_naive,L2 DMisses,1023891034592.0
+azimint_naive,L2 Access,0.0
+azimint_naive,LST,0.0
+bicg,L2 Misses,57800306112.0
+bicg,L2 DRead + DWrite,32524810048.0
+bicg,L2 DMisses,57800306112.0
+bicg,L2 Access,32540301664.0
+bicg,LST,20050534616.0
+cavity_flow,L2 Misses,8444656544.0
+cavity_flow,L2 DRead + DWrite,20164849184.0
+cavity_flow,L2 DMisses,8444656544.0
+cavity_flow,L2 Access,14077827488.0
+cavity_flow,LST,11309691976.0
+cholesky,L2 Misses,169468562592.0
+cholesky,L2 DRead + DWrite,0.0
+cholesky,L2 DMisses,169468562592.0
+cholesky,L2 Access,0.0
+cholesky,LST,35977411782.0
+compute,L2 Misses,26466688800.0
+compute,L2 DRead + DWrite,20040296576.0
+compute,L2 DMisses,26466688800.0
+compute,L2 Access,13003774112.0
+compute,LST,15442793168.0
+conv2d_bias,L2 Misses,23886981024.0
+conv2d_bias,L2 DRead + DWrite,5396036000.0
+conv2d_bias,L2 DMisses,23886981024.0
+conv2d_bias,L2 Access,14294110944.0
+conv2d_bias,LST,21580056116.0
+correlation,L2 Misses,2625723628352.0
+correlation,L2 DRead + DWrite,2621824019680.0
+correlation,L2 DMisses,2625723628352.0
+correlation,L2 Access,2625031417152.0
+correlation,LST,414357120456.0
+covariance,L2 Misses,2625521417728.0
+covariance,L2 DRead + DWrite,2621565467040.0
+covariance,L2 DMisses,2625521417728.0
+covariance,L2 Access,2625134929376.0
+covariance,LST,414196515800.0
+crc16,L2 Misses,214560.0
+crc16,L2 DRead + DWrite,87808.0
+crc16,L2 DMisses,214560.0
+crc16,L2 Access,663104.0
+crc16,LST,10158578.0
+deriche,L2 Misses,26080003520.0
+deriche,L2 DRead + DWrite,11815356832.0
+deriche,L2 DMisses,26080003520.0
+deriche,L2 Access,16610127456.0
+deriche,LST,12193749008.0
+durbin,L2 Misses,59701272544.0
+durbin,L2 DRead + DWrite,12451744032.0
+durbin,L2 DMisses,59701272544.0
+durbin,L2 Access,25806496672.0
+durbin,LST,19227493226.0
+fdtd_2d,L2 Misses,9727715552.0
+fdtd_2d,L2 DRead + DWrite,16720944800.0
+fdtd_2d,L2 DMisses,9727715552.0
+fdtd_2d,L2 Access,11768282496.0
+fdtd_2d,LST,13013410506.0
+floyd_warshall,L2 Misses,8009853184.0
+floyd_warshall,L2 DRead + DWrite,11517864672.0
+floyd_warshall,L2 DMisses,8009853184.0
+floyd_warshall,L2 Access,9699428160.0
+floyd_warshall,LST,17036282866.0
+gemm,L2 Misses,0.0
+gemm,L2 DRead + DWrite,0.0
+gemm,L2 DMisses,0.0
+gemm,L2 Access,0.0
+gemm,LST,0.0
+gemver,L2 Misses,13298471648.0
+gemver,L2 DRead + DWrite,12066093664.0
+gemver,L2 DMisses,13298471648.0
+gemver,L2 Access,10355109376.0
+gemver,LST,9665433374.0
+gesummv,L2 Misses,9382899232.0
+gesummv,L2 DRead + DWrite,5502365120.0
+gesummv,L2 DMisses,9382899232.0
+gesummv,L2 Access,3502930048.0
+gesummv,LST,11034056628.0
+go_fast,L2 Misses,6380094816.0
+go_fast,L2 DRead + DWrite,4769674784.0
+go_fast,L2 DMisses,6380094816.0
+go_fast,L2 Access,3113221248.0
+go_fast,LST,3230447984.0
+gramschmidt,L2 Misses,79506079296.0
+gramschmidt,L2 DRead + DWrite,29457300032.0
+gramschmidt,L2 DMisses,79506079296.0
+gramschmidt,L2 Access,40171336384.0
+gramschmidt,LST,23390223424.0
+hdiff,L2 Misses,9854372192.0
+hdiff,L2 DRead + DWrite,5803695168.0
+hdiff,L2 DMisses,9854372192.0
+hdiff,L2 Access,4105997600.0
+hdiff,LST,5375472610.0
+heat_3d,L2 Misses,10304486720.0
+heat_3d,L2 DRead + DWrite,18459733760.0
+heat_3d,L2 DMisses,10304486720.0
+heat_3d,L2 Access,13273597376.0
+heat_3d,LST,10419376488.0
+jacobi_1d,L2 Misses,22890821376.0
+jacobi_1d,L2 DRead + DWrite,30054232288.0
+jacobi_1d,L2 DMisses,22890821376.0
+jacobi_1d,L2 Access,24206592288.0
+jacobi_1d,LST,24437119396.0
+jacobi_2d,L2 Misses,9531177184.0
+jacobi_2d,L2 DRead + DWrite,19624628352.0
+jacobi_2d,L2 DMisses,9531177184.0
+jacobi_2d,L2 Access,15017714944.0
+jacobi_2d,LST,12188799400.0
+k2mm,L2 Misses,0.0
+k2mm,L2 DRead + DWrite,0.0
+k2mm,L2 DMisses,0.0
+k2mm,L2 Access,0.0
+k2mm,LST,0.0
+k3mm,L2 Misses,0.0
+k3mm,L2 DRead + DWrite,0.0
+k3mm,L2 DMisses,0.0
+k3mm,L2 Access,0.0
+k3mm,LST,0.0
+lenet,L2 Misses,16852676640.0
+lenet,L2 DRead + DWrite,5524181760.0
+lenet,L2 DMisses,16852676640.0
+lenet,L2 Access,8261644864.0
+lenet,LST,14623546262.0
+ludcmp,L2 Misses,94389792384.0
+ludcmp,L2 DRead + DWrite,34955060128.0
+ludcmp,L2 DMisses,94389792384.0
+ludcmp,L2 Access,48112225952.0
+ludcmp,LST,27909208518.0
+lu,L2 Misses,107237987936.0
+lu,L2 DRead + DWrite,35298147488.0
+lu,L2 DMisses,107237987936.0
+lu,L2 Access,50165754560.0
+lu,LST,39873006316.0
+mandelbrot1,L2 Misses,232516224.0
+mandelbrot1,L2 DRead + DWrite,3329478464.0
+mandelbrot1,L2 DMisses,232516224.0
+mandelbrot1,L2 Access,1762796288.0
+mandelbrot1,LST,4987915842.0
+mandelbrot2,L2 Misses,5410796544.0
+mandelbrot2,L2 DRead + DWrite,4225223360.0
+mandelbrot2,L2 DMisses,5410796544.0
+mandelbrot2,L2 Access,3750495360.0
+mandelbrot2,LST,3691327674.0
+mlp,L2 Misses,986475364864.0
+mlp,L2 DRead + DWrite,929752807424.0
+mlp,L2 DMisses,986475364864.0
+mlp,L2 Access,0.0
+mlp,LST,403361376868.0
+mvt,L2 Misses,37049104864.0
+mvt,L2 DRead + DWrite,31430522016.0
+mvt,L2 DMisses,37049104864.0
+mvt,L2 Access,31417057824.0
+mvt,LST,19405500640.0
+nbody,L2 Misses,17225382528.0
+nbody,L2 DRead + DWrite,6478133792.0
+nbody,L2 DMisses,17225382528.0
+nbody,L2 Access,7292089664.0
+nbody,LST,5196305496.0
+nussinov,L2 Misses,439904.0
+nussinov,L2 DRead + DWrite,4485600.0
+nussinov,L2 DMisses,439904.0
+nussinov,L2 Access,5214624.0
+nussinov,LST,30638548.0
+resnet,L2 Misses,3465555584.0
+resnet,L2 DRead + DWrite,4461923520.0
+resnet,L2 DMisses,3465555584.0
+resnet,L2 Access,3687020160.0
+resnet,LST,19262614808.0
+scattering_self_energies,L2 Misses,59141453024.0
+scattering_self_energies,L2 DRead + DWrite,20382092032.0
+scattering_self_energies,L2 DMisses,59141453024.0
+scattering_self_energies,L2 Access,29129322208.0
+scattering_self_energies,LST,25832604102.0
+seidel_2d,L2 Misses,7024620160.0
+seidel_2d,L2 DRead + DWrite,2187002816.0
+seidel_2d,L2 DMisses,7024620160.0
+seidel_2d,L2 Access,3148032032.0
+seidel_2d,LST,1831897430.0
+softmax,L2 Misses,0.0
+softmax,L2 DRead + DWrite,0.0
+softmax,L2 DMisses,0.0
+softmax,L2 Access,0.0
+softmax,LST,0.0
+spmv,L2 Misses,65396476480.0
+spmv,L2 DRead + DWrite,24469535840.0
+spmv,L2 DMisses,65396476480.0
+spmv,L2 Access,34297099680.0
+spmv,LST,28385407440.0
+symm,L2 Misses,92091124896.0
+symm,L2 DRead + DWrite,30346400672.0
+symm,L2 DMisses,92091124896.0
+symm,L2 Access,41520065856.0
+symm,LST,30547183134.0
+syr2k,L2 Misses,112973984224.0
+syr2k,L2 DRead + DWrite,34759544928.0
+syr2k,L2 DMisses,112973984224.0
+syr2k,L2 Access,48378410592.0
+syr2k,LST,29566701486.0
+syrk,L2 Misses,76735298496.0
+syrk,L2 DRead + DWrite,27908870368.0
+syrk,L2 DMisses,76735298496.0
+syrk,L2 Access,37578373376.0
+syrk,LST,21997756536.0
+trisolv,L2 Misses,20502785280.0
+trisolv,L2 DRead + DWrite,2357425408.0
+trisolv,L2 DMisses,20502785280.0
+trisolv,L2 Access,8259365856.0
+trisolv,LST,4319896324.0
+trmm,L2 Misses,178843038976.0
+trmm,L2 DRead + DWrite,0.0
+trmm,L2 DMisses,178843038976.0
+trmm,L2 Access,0.0
+trmm,LST,29719735690.0
+vadv,L2 Misses,7221766432.0
+vadv,L2 DRead + DWrite,8944889376.0
+vadv,L2 DMisses,7221766432.0
+vadv,L2 Access,10570185184.0
+vadv,LST,3887518810.0
+adi,Symbolic Bytes,5161272336.0
+arc_distance,Symbolic Bytes,399999960.0
+atax,Symbolic Bytes,7999999984.0
+azimint_hist,Symbolic Bytes,5120120016.0
+bicg,Symbolic Bytes,7999999984.0
+cavity_flow,Symbolic Bytes,6875772800.0
+cholesky,Symbolic Bytes,1973197168.0
+compute,Symbolic Bytes,12287232024.0
+conv2d_bias,Symbolic Bytes,1036832188.0
+covariance,Symbolic Bytes,164566982400.0
+deriche,Symbolic Bytes,7196353272.0
+durbin,Symbolic Bytes,16001439976.0
+fdtd_2d,Symbolic Bytes,8611588800.0
+gemm,Symbolic Bytes,4371052064.0
+gemver,Symbolic Bytes,4800639904.0
+gesummv,Symbolic Bytes,12543439992.0
+go_fast,Symbolic Bytes,9600480024.0
+gramschmidt,Symbolic Bytes,3614201216.0
+hdiff,Symbolic Bytes,1876627392.0
+heat_3d,Symbolic Bytes,1949584032.0
+jacobi_1d,Symbolic Bytes,9246368064.0
+jacobi_2d,Symbolic Bytes,3102521440.0
+k2mm,Symbolic Bytes,4520836088.0
+k3mm,Symbolic Bytes,2873088072.0
+ludcmp,Symbolic Bytes,1490104184.0
+mlp,Symbolic Bytes,7215359656.0
+mvt,Symbolic Bytes,7745055936.0
+resnet,Symbolic Bytes,4227198120.0
+seidel_2d,Symbolic Bytes,159011424.0
+softmax,Symbolic Bytes,4538426760.0
+symm,Symbolic Bytes,1638548416.0
+syr2k,Symbolic Bytes,1578324800.0
+syrk,Symbolic Bytes,2901127200.0
+trisolv,Symbolic Bytes,1569232000.0
+trmm,Symbolic Bytes,3024706416.0
+vadv,Symbolic Bytes,1478064816.0
